@@ -1,0 +1,32 @@
+ซีรีย์
+Word
+F  3
+-
+N 4
+
+พันธุ์
+F1
+OP
+
+
+คลังภาพ
+artwork
+packing
+ลูกค้า
+
+idPosition = 2  เจ้าหน้าที่ฝ่ายขาย 
+
+idSection = 44 ของขวัญ & ของรางวัล
+
+
+%userprofile%\local settings\apps
+
+
+ เรื่องตัด stock หน้าขายค่ะ
+ - frmSlOrderToSale
+- frmSlSaleData 
+- frmSlSaleTs
+ แล้วก็มีฟังก์ชัน  
+- PdPkStockCard
+- mdPdPkStockUpdate ใน mdlcenter ค่ะ
+ อัพหลัง 5 โมงเย็น แล้วก็ก่อนวันจันทร์นะคะ

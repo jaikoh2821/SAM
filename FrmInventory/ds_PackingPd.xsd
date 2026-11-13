@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ds_PackingPd" targetNamespace="http://tempuri.org/ds_vPackingPd.xsd" xmlns:mstns="http://tempuri.org/ds_vPackingPd.xsd" xmlns="http://tempuri.org/ds_vPackingPd.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="GR_GroupConnectionString1" IsAppSettingsProperty="True" Modifier="Assembly" Name="GR_GroupConnectionString1 (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.SAM.MySettings.GlobalReference.Default.GR_GroupConnectionString1" Provider="System.Data.SqlClient">
+          </Connection>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ds_PackingPd" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="ds_PackingPd" msprop:Generator_DataSetName="ds_PackingPd">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtPackingPd" msprop:Generator_UserTableName="dtPackingPd" msprop:Generator_RowDeletedName="dtPackingPdRowDeleted" msprop:Generator_RowChangedName="dtPackingPdRowChanged" msprop:Generator_RowClassName="dtPackingPdRow" msprop:Generator_RowChangingName="dtPackingPdRowChanging" msprop:Generator_RowEvArgName="dtPackingPdRowChangeEvent" msprop:Generator_RowEvHandlerName="dtPackingPdRowChangeEventHandler" msprop:Generator_TableClassName="dtPackingPdDataTable" msprop:Generator_TableVarName="tabledtPackingPd" msprop:Generator_RowDeletingName="dtPackingPdRowDeleting" msprop:Generator_TablePropName="dtPackingPd">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="PdTradeName" msprop:Generator_UserColumnName="PdTradeName" msprop:Generator_ColumnPropNameInRow="PdTradeName" msprop:Generator_ColumnVarNameInTable="columnPdTradeName" msprop:Generator_ColumnPropNameInTable="PdTradeNameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Trademark" msprop:Generator_UserColumnName="Trademark" msprop:Generator_ColumnPropNameInRow="Trademark" msprop:Generator_ColumnVarNameInTable="columnTrademark" msprop:Generator_ColumnPropNameInTable="TrademarkColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="PkUnitName" msprop:Generator_UserColumnName="PkUnitName" msprop:Generator_ColumnPropNameInRow="PkUnitName" msprop:Generator_ColumnVarNameInTable="columnPkUnitName" msprop:Generator_ColumnPropNameInTable="PkUnitNameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Weight" msprop:Generator_UserColumnName="Weight" msprop:Generator_ColumnPropNameInRow="Weight" msprop:Generator_ColumnVarNameInTable="columnWeight" msprop:Generator_ColumnPropNameInTable="WeightColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="UnitW" msprop:Generator_UserColumnName="UnitW" msprop:Generator_ColumnPropNameInRow="UnitW" msprop:Generator_ColumnVarNameInTable="columnUnitW" msprop:Generator_ColumnPropNameInTable="UnitWColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Note" msprop:Generator_UserColumnName="Note" msprop:Generator_ColumnPropNameInRow="Note" msprop:Generator_ColumnVarNameInTable="columnNote" msprop:Generator_ColumnPropNameInTable="NoteColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ImgLabel" msprop:Generator_UserColumnName="ImgLabel" msprop:Generator_ColumnVarNameInTable="columnImgLabel" msprop:Generator_ColumnPropNameInRow="ImgLabel" msprop:Generator_ColumnPropNameInTable="ImgLabelColumn" type="xs:base64Binary" minOccurs="0" />
+              <xs:element name="ImgPackage" msprop:Generator_UserColumnName="ImgPackage" msprop:Generator_ColumnVarNameInTable="columnImgPackage" msprop:Generator_ColumnPropNameInRow="ImgPackage" msprop:Generator_ColumnPropNameInTable="ImgPackageColumn" type="xs:base64Binary" minOccurs="0" />
+              <xs:element name="PlantName" msprop:Generator_UserColumnName="PlantName" msprop:Generator_ColumnVarNameInTable="columnPlantName" msprop:Generator_ColumnPropNameInRow="PlantName" msprop:Generator_ColumnPropNameInTable="PlantNameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="PlantTypeName" msprop:Generator_UserColumnName="PlantTypeName" msprop:Generator_ColumnVarNameInTable="columnPlantTypeName" msprop:Generator_ColumnPropNameInRow="PlantTypeName" msprop:Generator_ColumnPropNameInTable="PlantTypeNameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="idPkUnit" msprop:Generator_UserColumnName="idPkUnit" msprop:Generator_ColumnPropNameInRow="idPkUnit" msprop:Generator_ColumnVarNameInTable="columnidPkUnit" msprop:Generator_ColumnPropNameInTable="idPkUnitColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="idPdPk" msprop:Generator_UserColumnName="idPdPk" msprop:Generator_ColumnVarNameInTable="columnidPdPk" msprop:Generator_ColumnPropNameInRow="idPdPk" msprop:Generator_ColumnPropNameInTable="idPdPkColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

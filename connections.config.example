@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<connectionStrings>
+        <add name="SAM.My.MySettings.cnSPM" connectionString="Data Source=YOUR_SERVER;Initial Catalog=GR_Group;Persist Security Info=True;User ID=YOUR_USER;Password=YOUR_PASSWORD"
+            providerName="System.Data.SqlClient" />
+        <add name="SAM.My.MySettings.cnPOP" connectionString="Data Source=YOUR_SERVER;Initial Catalog=PchInvAndProject;Persist Security Info=True;User ID=YOUR_USER;Password=YOUR_PASSWORD"
+            providerName="System.Data.SqlClient" />
+        <add name="SAM.My.MySettings.GR_GroupConnectionString" connectionString="Data Source=YOUR_SERVER;Initial Catalog=GR_Group;Persist Security Info=True;User ID=YOUR_USER;Password=YOUR_PASSWORD"
+            providerName="System.Data.SqlClient" />
+        <add name="SAM.My.MySettings.cnCore" connectionString="Data Source=YOUR_SERVER;Initial Catalog=CoreCenter;Persist Security Info=True;User ID=YOUR_USER;Password=YOUR_PASSWORD"
+            providerName="System.Data.SqlClient" />
+        <add name="GR_GroupTest" connectionString="Data Source=YOUR_SERVER; Initial Catalog=GR_GroupTest; User ID=YOUR_USER;Password=YOUR_PASSWORD" providerName="System.Data.SqlClient" />
+</connectionStrings>

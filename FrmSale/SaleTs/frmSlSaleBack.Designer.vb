@@ -1,0 +1,1925 @@
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+Partial Class frmSlSaleBack
+    Inherits System.Windows.Forms.Form
+
+    'Form overrides dispose to clean up the component list.
+    <System.Diagnostics.DebuggerNonUserCode()> _
+    Protected Overrides Sub Dispose(ByVal disposing As Boolean)
+        Try
+            If disposing AndAlso components IsNot Nothing Then
+                components.Dispose()
+            End If
+        Finally
+            MyBase.Dispose(disposing)
+        End Try
+    End Sub
+
+    'Required by the Windows Form Designer
+    Private components As System.ComponentModel.IContainer
+
+    'NOTE: The following procedure is required by the Windows Form Designer
+    'It can be modified using the Windows Form Designer.  
+    'Do not modify it using the code editor.
+    <System.Diagnostics.DebuggerStepThrough()> _
+    Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frmSlSaleBack))
+        Dim SerializableAppearanceObject5 As DevExpress.Utils.SerializableAppearanceObject = New DevExpress.Utils.SerializableAppearanceObject()
+        Dim SerializableAppearanceObject6 As DevExpress.Utils.SerializableAppearanceObject = New DevExpress.Utils.SerializableAppearanceObject()
+        Dim SerializableAppearanceObject7 As DevExpress.Utils.SerializableAppearanceObject = New DevExpress.Utils.SerializableAppearanceObject()
+        Dim SerializableAppearanceObject8 As DevExpress.Utils.SerializableAppearanceObject = New DevExpress.Utils.SerializableAppearanceObject()
+        Me.ColLastPrice = New DevExpress.XtraGrid.Columns.GridColumn()
+        Me.rptCheckPrice = New DevExpress.XtraEditors.Repository.RepositoryItemButtonEdit()
+        Me.ColTotalDt = New DevExpress.XtraGrid.Columns.GridColumn()
+        Me.ColDel = New DevExpress.XtraGrid.Columns.GridColumn()
+        Me.rptDel = New DevExpress.XtraEditors.Repository.RepositoryItemButtonEdit()
+        Me.Col_idSaleDt = New DevExpress.XtraGrid.Columns.GridColumn()
+        Me.Col_CompRec = New DevExpress.XtraGrid.Columns.GridColumn()
+        Me.colidInvMain = New DevExpress.XtraGrid.Columns.GridColumn()
+        Me.colidInvGroup = New DevExpress.XtraGrid.Columns.GridColumn()
+        Me.colNo = New DevExpress.XtraGrid.Columns.GridColumn()
+        Me.colstEdit = New DevExpress.XtraGrid.Columns.GridColumn()
+        Me.rptChx = New DevExpress.XtraEditors.Repository.RepositoryItemButtonEdit()
+        Me.ColProductName = New DevExpress.XtraGrid.Columns.GridColumn()
+        Me.rptProductName = New DevExpress.XtraEditors.Repository.RepositoryItemHyperLinkEdit()
+        Me.ColAmtSale = New DevExpress.XtraGrid.Columns.GridColumn()
+        Me.rptUnit = New DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit()
+        Me.ColPriceNormal = New DevExpress.XtraGrid.Columns.GridColumn()
+        Me.ColPercDiscount = New DevExpress.XtraGrid.Columns.GridColumn()
+        Me.ColBathDiscount = New DevExpress.XtraGrid.Columns.GridColumn()
+        Me.ColPriceSale = New DevExpress.XtraGrid.Columns.GridColumn()
+        Me.ColidUnit = New DevExpress.XtraGrid.Columns.GridColumn()
+        Me.ColChxProductName = New DevExpress.XtraGrid.Columns.GridColumn()
+        Me.ColDtType = New DevExpress.XtraGrid.Columns.GridColumn()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.Label9 = New System.Windows.Forms.Label()
+        Me.txtDiscBath = New System.Windows.Forms.TextBox()
+        Me.lblPerc = New System.Windows.Forms.TextBox()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.txtAmtPerc = New System.Windows.Forms.TextBox()
+        Me.stLbl_DateTs = New System.Windows.Forms.ToolStripStatusLabel()
+        Me.stLbl_PsTs = New System.Windows.Forms.ToolStripStatusLabel()
+        Me.PanelControl3 = New DevExpress.XtraEditors.PanelControl()
+        Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.btnSave = New DevExpress.XtraEditors.SimpleButton()
+        Me.StatusStrip2 = New System.Windows.Forms.StatusStrip()
+        Me.rdbBathDisc = New System.Windows.Forms.RadioButton()
+        Me.colUnitName = New DevExpress.XtraGrid.Columns.GridColumn()
+        Me.stCutStock = New DevExpress.XtraGrid.Columns.GridColumn()
+        Me.colpWeight = New DevExpress.XtraGrid.Columns.GridColumn()
+        Me.txtTotalBFDisc = New System.Windows.Forms.TextBox()
+        Me.ColidUnitW = New DevExpress.XtraGrid.Columns.GridColumn()
+        Me.ImageList1 = New System.Windows.Forms.ImageList(Me.components)
+        Me.FileSystemWatcher1 = New System.IO.FileSystemWatcher()
+        Me.PanelControl1 = New DevExpress.XtraEditors.PanelControl()
+        Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.lblPsOrder = New System.Windows.Forms.Label()
+        Me.Label19 = New System.Windows.Forms.Label()
+        Me.btnPsOrder = New DevExpress.XtraEditors.SimpleButton()
+        Me.GBDiscount = New System.Windows.Forms.GroupBox()
+        Me.rdbPerDisc = New System.Windows.Forms.RadioButton()
+        Me.Panel4 = New System.Windows.Forms.Panel()
+        Me.gcNote = New DevExpress.XtraGrid.GridControl()
+        Me.gvNote = New DevExpress.XtraGrid.Views.Grid.GridView()
+        Me.colNote = New DevExpress.XtraGrid.Columns.GridColumn()
+        Me.GroupBox3 = New System.Windows.Forms.GroupBox()
+        Me.btnTspComp = New DevExpress.XtraEditors.SimpleButton()
+        Me.btnAddressS = New DevExpress.XtraEditors.SimpleButton()
+        Me.cmbBillSaleCont = New System.Windows.Forms.ComboBox()
+        Me.btnCustomer = New DevExpress.XtraEditors.SimpleButton()
+        Me.lblTspComp = New System.Windows.Forms.Label()
+        Me.lblCusNote = New System.Windows.Forms.TextBox()
+        Me.Label56 = New System.Windows.Forms.Label()
+        Me.Label54 = New System.Windows.Forms.Label()
+        Me.cmbTypePayTrp = New System.Windows.Forms.ComboBox()
+        Me.lblAddr = New System.Windows.Forms.Label()
+        Me.Label14 = New System.Windows.Forms.Label()
+        Me.txtBillSaleCont = New System.Windows.Forms.TextBox()
+        Me.Label16 = New System.Windows.Forms.Label()
+        Me.Label12 = New System.Windows.Forms.Label()
+        Me.CmbTs = New System.Windows.Forms.ComboBox()
+        Me.lblTS = New System.Windows.Forms.Label()
+        Me.lblCusRec = New System.Windows.Forms.Label()
+        Me.Label5 = New System.Windows.Forms.Label()
+        Me.Label40 = New System.Windows.Forms.Label()
+        Me.lblPsCus = New System.Windows.Forms.Label()
+        Me.Label6 = New System.Windows.Forms.Label()
+        Me.GroupBox4 = New System.Windows.Forms.GroupBox()
+        Me.rdbBill = New System.Windows.Forms.RadioButton()
+        Me.rdbWhole = New System.Windows.Forms.RadioButton()
+        Me.rdbRetail = New System.Windows.Forms.RadioButton()
+        Me.Label8 = New System.Windows.Forms.Label()
+        Me.txtTotalNet = New System.Windows.Forms.TextBox()
+        Me.GroupBox6 = New System.Windows.Forms.GroupBox()
+        Me.Label11 = New System.Windows.Forms.Label()
+        Me.btnRefDoc = New DevExpress.XtraEditors.SimpleButton()
+        Me.btnSale = New DevExpress.XtraEditors.SimpleButton()
+        Me.lblRefAcc = New System.Windows.Forms.Label()
+        Me.cmbGroupComp = New System.Windows.Forms.ComboBox()
+        Me.Label38 = New System.Windows.Forms.Label()
+        Me.Label24 = New System.Windows.Forms.Label()
+        Me.lblDocCode = New System.Windows.Forms.Label()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.dtpSale = New System.Windows.Forms.DateTimePicker()
+        Me.cmbDRCode = New System.Windows.Forms.ComboBox()
+        Me.txtDocRef = New System.Windows.Forms.TextBox()
+        Me.Label10 = New System.Windows.Forms.Label()
+        Me.lblPsSale = New System.Windows.Forms.Label()
+        Me.Label15 = New System.Windows.Forms.Label()
+        Me.GroupBox9 = New System.Windows.Forms.GroupBox()
+        Me.Label18 = New System.Windows.Forms.Label()
+        Me.txtPrePay = New System.Windows.Forms.TextBox()
+        Me.rdbRight = New System.Windows.Forms.RadioButton()
+        Me.Label13 = New System.Windows.Forms.Label()
+        Me.txtPercP = New System.Windows.Forms.TextBox()
+        Me.rdbNoRight = New System.Windows.Forms.RadioButton()
+        Me.Label7 = New System.Windows.Forms.Label()
+        Me.cmbTp = New System.Windows.Forms.ComboBox()
+        Me.Label21 = New System.Windows.Forms.Label()
+        Me.dtpPay = New System.Windows.Forms.DateTimePicker()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.rptPdCode = New DevExpress.XtraEditors.Repository.RepositoryItemTextEdit()
+        Me.ContextMenuStrip1 = New System.Windows.Forms.ContextMenuStrip(Me.components)
+        Me.ColPdCode = New DevExpress.XtraGrid.Columns.GridColumn()
+        Me.GCSale = New DevExpress.XtraGrid.GridControl()
+        Me.DGVBind = New DevExpress.XtraGrid.Views.Grid.GridView()
+        Me.colidSubType = New DevExpress.XtraGrid.Columns.GridColumn()
+        Me.ColNum = New DevExpress.XtraGrid.Columns.GridColumn()
+        Me.Img1 = New System.Windows.Forms.ImageList(Me.components)
+        CType(Me.rptCheckPrice, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.rptDel, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.rptChx, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.rptProductName, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.rptUnit, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PanelControl3, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.PanelControl3.SuspendLayout()
+        Me.Panel1.SuspendLayout()
+        Me.StatusStrip2.SuspendLayout()
+        CType(Me.FileSystemWatcher1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PanelControl1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.PanelControl1.SuspendLayout()
+        Me.GroupBox1.SuspendLayout()
+        Me.GBDiscount.SuspendLayout()
+        Me.Panel4.SuspendLayout()
+        CType(Me.gcNote, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.gvNote, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.GroupBox3.SuspendLayout()
+        Me.GroupBox4.SuspendLayout()
+        Me.GroupBox6.SuspendLayout()
+        Me.GroupBox9.SuspendLayout()
+        CType(Me.rptPdCode, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.GCSale, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.DGVBind, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.SuspendLayout()
+        '
+        'ColLastPrice
+        '
+        Me.ColLastPrice.AppearanceCell.Font = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.ColLastPrice.AppearanceCell.Options.UseFont = True
+        Me.ColLastPrice.AppearanceCell.Options.UseTextOptions = True
+        Me.ColLastPrice.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
+        Me.ColLastPrice.AppearanceHeader.Options.UseFont = True
+        Me.ColLastPrice.AppearanceHeader.Options.UseTextOptions = True
+        Me.ColLastPrice.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
+        Me.ColLastPrice.AppearanceHeader.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap
+        Me.ColLastPrice.Caption = "ตรวจสอบราคา"
+        Me.ColLastPrice.ColumnEdit = Me.rptCheckPrice
+        Me.ColLastPrice.MaxWidth = 50
+        Me.ColLastPrice.MinWidth = 50
+        Me.ColLastPrice.Name = "ColLastPrice"
+        Me.ColLastPrice.OptionsColumn.ReadOnly = True
+        Me.ColLastPrice.OptionsColumn.TabStop = False
+        Me.ColLastPrice.Visible = True
+        Me.ColLastPrice.VisibleIndex = 12
+        Me.ColLastPrice.Width = 50
+        '
+        'rptCheckPrice
+        '
+        Me.rptCheckPrice.AutoHeight = False
+        Me.rptCheckPrice.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "", -1, True, True, False, DevExpress.XtraEditors.ImageLocation.MiddleCenter, CType(resources.GetObject("rptCheckPrice.Buttons"), System.Drawing.Image), New DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), SerializableAppearanceObject5, "", Nothing, Nothing, True)})
+        Me.rptCheckPrice.ButtonsStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder
+        Me.rptCheckPrice.Name = "rptCheckPrice"
+        Me.rptCheckPrice.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.HideTextEditor
+        '
+        'ColTotalDt
+        '
+        Me.ColTotalDt.AppearanceCell.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.ColTotalDt.AppearanceCell.Font = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.ColTotalDt.AppearanceCell.Options.UseBackColor = True
+        Me.ColTotalDt.AppearanceCell.Options.UseFont = True
+        Me.ColTotalDt.AppearanceCell.Options.UseTextOptions = True
+        Me.ColTotalDt.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
+        Me.ColTotalDt.AppearanceHeader.Options.UseFont = True
+        Me.ColTotalDt.AppearanceHeader.Options.UseTextOptions = True
+        Me.ColTotalDt.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
+        Me.ColTotalDt.Caption = "รวมเป็นเงิน"
+        Me.ColTotalDt.DisplayFormat.FormatString = "#,##0.00##"
+        Me.ColTotalDt.DisplayFormat.FormatType = DevExpress.Utils.FormatType.Numeric
+        Me.ColTotalDt.FieldName = "Total"
+        Me.ColTotalDt.MinWidth = 85
+        Me.ColTotalDt.Name = "ColTotalDt"
+        Me.ColTotalDt.OptionsColumn.AllowEdit = False
+        Me.ColTotalDt.OptionsColumn.ReadOnly = True
+        Me.ColTotalDt.OptionsColumn.TabStop = False
+        Me.ColTotalDt.Visible = True
+        Me.ColTotalDt.VisibleIndex = 11
+        Me.ColTotalDt.Width = 95
+        '
+        'ColDel
+        '
+        Me.ColDel.AppearanceCell.Font = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.ColDel.AppearanceCell.Options.UseFont = True
+        Me.ColDel.AppearanceCell.Options.UseTextOptions = True
+        Me.ColDel.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
+        Me.ColDel.AppearanceHeader.Options.UseFont = True
+        Me.ColDel.AppearanceHeader.Options.UseTextOptions = True
+        Me.ColDel.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
+        Me.ColDel.Caption = "ลบ"
+        Me.ColDel.ColumnEdit = Me.rptDel
+        Me.ColDel.MaxWidth = 30
+        Me.ColDel.MinWidth = 30
+        Me.ColDel.Name = "ColDel"
+        Me.ColDel.OptionsColumn.AllowSize = False
+        Me.ColDel.Visible = True
+        Me.ColDel.VisibleIndex = 9
+        Me.ColDel.Width = 30
+        '
+        'rptDel
+        '
+        Me.rptDel.AutoHeight = False
+        Me.rptDel.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "", -1, True, True, False, DevExpress.XtraEditors.ImageLocation.MiddleCenter, CType(resources.GetObject("rptDel.Buttons"), System.Drawing.Image), New DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), SerializableAppearanceObject6, "", Nothing, Nothing, True)})
+        Me.rptDel.ButtonsStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder
+        Me.rptDel.Name = "rptDel"
+        Me.rptDel.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.HideTextEditor
+        '
+        'Col_idSaleDt
+        '
+        Me.Col_idSaleDt.AppearanceCell.Font = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.Col_idSaleDt.AppearanceCell.Options.UseFont = True
+        Me.Col_idSaleDt.AppearanceHeader.Options.UseFont = True
+        Me.Col_idSaleDt.Caption = "idSaleDt"
+        Me.Col_idSaleDt.FieldName = "idSaleDt"
+        Me.Col_idSaleDt.Name = "Col_idSaleDt"
+        '
+        'Col_CompRec
+        '
+        Me.Col_CompRec.AppearanceCell.Font = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.Col_CompRec.AppearanceCell.Options.UseFont = True
+        Me.Col_CompRec.AppearanceHeader.Options.UseFont = True
+        Me.Col_CompRec.Caption = "CompRec"
+        Me.Col_CompRec.FieldName = "CompRec"
+        Me.Col_CompRec.Name = "Col_CompRec"
+        '
+        'colidInvMain
+        '
+        Me.colidInvMain.AppearanceCell.Font = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.colidInvMain.AppearanceCell.Options.UseFont = True
+        Me.colidInvMain.AppearanceHeader.Options.UseFont = True
+        Me.colidInvMain.Caption = "idInvMain"
+        Me.colidInvMain.FieldName = "idInvMain"
+        Me.colidInvMain.Name = "colidInvMain"
+        '
+        'colidInvGroup
+        '
+        Me.colidInvGroup.AppearanceCell.Font = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.colidInvGroup.AppearanceCell.Options.UseFont = True
+        Me.colidInvGroup.AppearanceHeader.Options.UseFont = True
+        Me.colidInvGroup.Caption = "idInvGroup"
+        Me.colidInvGroup.FieldName = "idInvGroup"
+        Me.colidInvGroup.Name = "colidInvGroup"
+        '
+        'colNo
+        '
+        Me.colNo.AppearanceCell.Font = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.colNo.AppearanceCell.Options.UseFont = True
+        Me.colNo.AppearanceHeader.Options.UseFont = True
+        Me.colNo.Caption = "colNo"
+        Me.colNo.FieldName = "No"
+        Me.colNo.Name = "colNo"
+        '
+        'colstEdit
+        '
+        Me.colstEdit.AppearanceCell.Font = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.colstEdit.AppearanceCell.Options.UseFont = True
+        Me.colstEdit.AppearanceHeader.Options.UseFont = True
+        Me.colstEdit.Caption = "stEdit"
+        Me.colstEdit.FieldName = "stEdit"
+        Me.colstEdit.Name = "colstEdit"
+        '
+        'rptChx
+        '
+        Me.rptChx.AutoHeight = False
+        Me.rptChx.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "", -1, True, True, False, DevExpress.XtraEditors.ImageLocation.MiddleCenter, CType(resources.GetObject("rptChx.Buttons"), System.Drawing.Image), New DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), SerializableAppearanceObject7, "", Nothing, Nothing, True)})
+        Me.rptChx.ButtonsStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder
+        Me.rptChx.Name = "rptChx"
+        Me.rptChx.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.HideTextEditor
+        '
+        'ColProductName
+        '
+        Me.ColProductName.AppearanceCell.BackColor = System.Drawing.Color.White
+        Me.ColProductName.AppearanceCell.Font = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.ColProductName.AppearanceCell.Options.UseBackColor = True
+        Me.ColProductName.AppearanceCell.Options.UseFont = True
+        Me.ColProductName.AppearanceCell.Options.UseTextOptions = True
+        Me.ColProductName.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Near
+        Me.ColProductName.AppearanceCell.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center
+        Me.ColProductName.AppearanceCell.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap
+        Me.ColProductName.AppearanceHeader.Options.UseFont = True
+        Me.ColProductName.AppearanceHeader.Options.UseTextOptions = True
+        Me.ColProductName.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
+        Me.ColProductName.Caption = "รายการสินค้า"
+        Me.ColProductName.ColumnEdit = Me.rptProductName
+        Me.ColProductName.FieldName = "ProductName"
+        Me.ColProductName.MinWidth = 120
+        Me.ColProductName.Name = "ColProductName"
+        Me.ColProductName.Visible = True
+        Me.ColProductName.VisibleIndex = 2
+        Me.ColProductName.Width = 521
+        '
+        'rptProductName
+        '
+        Me.rptProductName.AllowHtmlDraw = DevExpress.Utils.DefaultBoolean.[True]
+        Me.rptProductName.Appearance.Options.UseTextOptions = True
+        Me.rptProductName.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Near
+        Me.rptProductName.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center
+        Me.rptProductName.Appearance.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap
+        Me.rptProductName.AutoHeight = False
+        Me.rptProductName.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "", -1, True, True, False, DevExpress.XtraEditors.ImageLocation.[Default], CType(resources.GetObject("rptProductName.Buttons"), System.Drawing.Image), New DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), SerializableAppearanceObject8, "", Nothing, Nothing, True)})
+        Me.rptProductName.LinkColorUseParentAppearance = True
+        Me.rptProductName.Name = "rptProductName"
+        Me.rptProductName.NullText = "เลือกสินค้า"
+        Me.rptProductName.SingleClick = True
+        Me.rptProductName.StartKey = New DevExpress.Utils.KeyShortcut((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.F))
+        '
+        'ColAmtSale
+        '
+        Me.ColAmtSale.AppearanceCell.Font = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.ColAmtSale.AppearanceCell.Options.UseFont = True
+        Me.ColAmtSale.AppearanceCell.Options.UseTextOptions = True
+        Me.ColAmtSale.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
+        Me.ColAmtSale.AppearanceHeader.Options.UseFont = True
+        Me.ColAmtSale.AppearanceHeader.Options.UseTextOptions = True
+        Me.ColAmtSale.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
+        Me.ColAmtSale.AppearanceHeader.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap
+        Me.ColAmtSale.Caption = "จน.ขาย"
+        Me.ColAmtSale.DisplayFormat.FormatString = "#,##0.00##"
+        Me.ColAmtSale.DisplayFormat.FormatType = DevExpress.Utils.FormatType.Custom
+        Me.ColAmtSale.FieldName = "AmtSale"
+        Me.ColAmtSale.MinWidth = 60
+        Me.ColAmtSale.Name = "ColAmtSale"
+        Me.ColAmtSale.Visible = True
+        Me.ColAmtSale.VisibleIndex = 4
+        Me.ColAmtSale.Width = 63
+        '
+        'rptUnit
+        '
+        Me.rptUnit.AutoHeight = False
+        Me.rptUnit.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
+        Me.rptUnit.DisplayMember = "UnitName"
+        Me.rptUnit.Name = "rptUnit"
+        Me.rptUnit.NullText = ""
+        Me.rptUnit.PopupFormMinSize = New System.Drawing.Size(40, 0)
+        Me.rptUnit.ShowFooter = False
+        Me.rptUnit.ShowHeader = False
+        Me.rptUnit.ValueMember = "idUnit"
+        '
+        'ColPriceNormal
+        '
+        Me.ColPriceNormal.AppearanceCell.Font = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.ColPriceNormal.AppearanceCell.Options.UseFont = True
+        Me.ColPriceNormal.AppearanceCell.Options.UseTextOptions = True
+        Me.ColPriceNormal.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
+        Me.ColPriceNormal.AppearanceHeader.Options.UseFont = True
+        Me.ColPriceNormal.AppearanceHeader.Options.UseTextOptions = True
+        Me.ColPriceNormal.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
+        Me.ColPriceNormal.Caption = "ราคาปกติ"
+        Me.ColPriceNormal.DisplayFormat.FormatString = "#,##0.00##"
+        Me.ColPriceNormal.DisplayFormat.FormatType = DevExpress.Utils.FormatType.Custom
+        Me.ColPriceNormal.FieldName = "PriceNormal"
+        Me.ColPriceNormal.MinWidth = 75
+        Me.ColPriceNormal.Name = "ColPriceNormal"
+        Me.ColPriceNormal.Visible = True
+        Me.ColPriceNormal.VisibleIndex = 5
+        Me.ColPriceNormal.Width = 78
+        '
+        'ColPercDiscount
+        '
+        Me.ColPercDiscount.AppearanceCell.Font = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.ColPercDiscount.AppearanceCell.Options.UseFont = True
+        Me.ColPercDiscount.AppearanceCell.Options.UseTextOptions = True
+        Me.ColPercDiscount.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
+        Me.ColPercDiscount.AppearanceHeader.Options.UseFont = True
+        Me.ColPercDiscount.AppearanceHeader.Options.UseTextOptions = True
+        Me.ColPercDiscount.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
+        Me.ColPercDiscount.AppearanceHeader.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap
+        Me.ColPercDiscount.Caption = "ส่วนลด (%)"
+        Me.ColPercDiscount.DisplayFormat.FormatString = "#,##0.00"
+        Me.ColPercDiscount.DisplayFormat.FormatType = DevExpress.Utils.FormatType.Numeric
+        Me.ColPercDiscount.FieldName = "PercDisc"
+        Me.ColPercDiscount.MinWidth = 55
+        Me.ColPercDiscount.Name = "ColPercDiscount"
+        Me.ColPercDiscount.Visible = True
+        Me.ColPercDiscount.VisibleIndex = 6
+        Me.ColPercDiscount.Width = 57
+        '
+        'ColBathDiscount
+        '
+        Me.ColBathDiscount.AppearanceCell.Font = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.ColBathDiscount.AppearanceCell.Options.UseFont = True
+        Me.ColBathDiscount.AppearanceCell.Options.UseTextOptions = True
+        Me.ColBathDiscount.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
+        Me.ColBathDiscount.AppearanceHeader.Options.UseFont = True
+        Me.ColBathDiscount.AppearanceHeader.Options.UseTextOptions = True
+        Me.ColBathDiscount.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
+        Me.ColBathDiscount.AppearanceHeader.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap
+        Me.ColBathDiscount.Caption = "ส่วนลด (บาท)"
+        Me.ColBathDiscount.DisplayFormat.FormatString = "#,##0.00"
+        Me.ColBathDiscount.DisplayFormat.FormatType = DevExpress.Utils.FormatType.Numeric
+        Me.ColBathDiscount.FieldName = "BathDisc"
+        Me.ColBathDiscount.MinWidth = 55
+        Me.ColBathDiscount.Name = "ColBathDiscount"
+        Me.ColBathDiscount.Visible = True
+        Me.ColBathDiscount.VisibleIndex = 7
+        Me.ColBathDiscount.Width = 57
+        '
+        'ColPriceSale
+        '
+        Me.ColPriceSale.AppearanceCell.Font = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.ColPriceSale.AppearanceCell.Options.UseFont = True
+        Me.ColPriceSale.AppearanceCell.Options.UseTextOptions = True
+        Me.ColPriceSale.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
+        Me.ColPriceSale.AppearanceHeader.Options.UseFont = True
+        Me.ColPriceSale.AppearanceHeader.Options.UseTextOptions = True
+        Me.ColPriceSale.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
+        Me.ColPriceSale.Caption = "ราคาขาย"
+        Me.ColPriceSale.DisplayFormat.FormatString = "#,##0.00##"
+        Me.ColPriceSale.DisplayFormat.FormatType = DevExpress.Utils.FormatType.Custom
+        Me.ColPriceSale.FieldName = "PriceSale"
+        Me.ColPriceSale.MinWidth = 75
+        Me.ColPriceSale.Name = "ColPriceSale"
+        Me.ColPriceSale.Visible = True
+        Me.ColPriceSale.VisibleIndex = 8
+        Me.ColPriceSale.Width = 78
+        '
+        'ColidUnit
+        '
+        Me.ColidUnit.AppearanceCell.Font = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.ColidUnit.AppearanceCell.Options.UseFont = True
+        Me.ColidUnit.AppearanceCell.Options.UseTextOptions = True
+        Me.ColidUnit.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
+        Me.ColidUnit.AppearanceHeader.Options.UseFont = True
+        Me.ColidUnit.AppearanceHeader.Options.UseTextOptions = True
+        Me.ColidUnit.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
+        Me.ColidUnit.Caption = "หน่วย"
+        Me.ColidUnit.ColumnEdit = Me.rptUnit
+        Me.ColidUnit.FieldName = "idUnit"
+        Me.ColidUnit.MinWidth = 60
+        Me.ColidUnit.Name = "ColidUnit"
+        Me.ColidUnit.Visible = True
+        Me.ColidUnit.VisibleIndex = 3
+        Me.ColidUnit.Width = 63
+        '
+        'ColChxProductName
+        '
+        Me.ColChxProductName.AppearanceCell.Font = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.ColChxProductName.AppearanceCell.Options.UseFont = True
+        Me.ColChxProductName.AppearanceHeader.Options.UseFont = True
+        Me.ColChxProductName.AppearanceHeader.Options.UseTextOptions = True
+        Me.ColChxProductName.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
+        Me.ColChxProductName.AppearanceHeader.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap
+        Me.ColChxProductName.Caption = "แก้ไขชื่อสินค้า"
+        Me.ColChxProductName.ColumnEdit = Me.rptChx
+        Me.ColChxProductName.MaxWidth = 48
+        Me.ColChxProductName.MinWidth = 48
+        Me.ColChxProductName.Name = "ColChxProductName"
+        Me.ColChxProductName.OptionsColumn.TabStop = False
+        Me.ColChxProductName.Visible = True
+        Me.ColChxProductName.VisibleIndex = 10
+        Me.ColChxProductName.Width = 48
+        '
+        'ColDtType
+        '
+        Me.ColDtType.AppearanceCell.Font = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.ColDtType.AppearanceCell.Options.UseFont = True
+        Me.ColDtType.AppearanceHeader.Options.UseFont = True
+        Me.ColDtType.Caption = "DtType"
+        Me.ColDtType.FieldName = "DtType"
+        Me.ColDtType.Name = "ColDtType"
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.BackColor = System.Drawing.Color.Transparent
+        Me.Label2.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
+        Me.Label2.Location = New System.Drawing.Point(917, 13)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(66, 14)
+        Me.Label2.TabIndex = 582
+        Me.Label2.Text = "รวมเป็นเงิน"
+        '
+        'Label9
+        '
+        Me.Label9.AutoSize = True
+        Me.Label9.BackColor = System.Drawing.Color.Transparent
+        Me.Label9.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
+        Me.Label9.Location = New System.Drawing.Point(228, 51)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(30, 14)
+        Me.Label9.TabIndex = 585
+        Me.Label9.Text = "บาท"
+        '
+        'txtDiscBath
+        '
+        Me.txtDiscBath.BackColor = System.Drawing.Color.White
+        Me.txtDiscBath.Enabled = False
+        Me.txtDiscBath.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
+        Me.txtDiscBath.ForeColor = System.Drawing.Color.Black
+        Me.txtDiscBath.Location = New System.Drawing.Point(128, 46)
+        Me.txtDiscBath.MaxLength = 3
+        Me.txtDiscBath.Name = "txtDiscBath"
+        Me.txtDiscBath.Size = New System.Drawing.Size(94, 22)
+        Me.txtDiscBath.TabIndex = 602
+        Me.txtDiscBath.Text = "0"
+        Me.txtDiscBath.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
+        '
+        'lblPerc
+        '
+        Me.lblPerc.BackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.lblPerc.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.lblPerc.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
+        Me.lblPerc.ForeColor = System.Drawing.Color.Lime
+        Me.lblPerc.Location = New System.Drawing.Point(178, 24)
+        Me.lblPerc.Multiline = True
+        Me.lblPerc.Name = "lblPerc"
+        Me.lblPerc.ReadOnly = True
+        Me.lblPerc.Size = New System.Drawing.Size(76, 18)
+        Me.lblPerc.TabIndex = 601
+        Me.lblPerc.TabStop = False
+        Me.lblPerc.Text = "0"
+        Me.lblPerc.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
+        '
+        'Label4
+        '
+        Me.Label4.AutoSize = True
+        Me.Label4.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
+        Me.Label4.Location = New System.Drawing.Point(149, 27)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(32, 14)
+        Me.Label4.TabIndex = 600
+        Me.Label4.Text = "% ="
+        '
+        'txtAmtPerc
+        '
+        Me.txtAmtPerc.BackColor = System.Drawing.Color.White
+        Me.txtAmtPerc.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
+        Me.txtAmtPerc.ForeColor = System.Drawing.Color.Black
+        Me.txtAmtPerc.Location = New System.Drawing.Point(104, 23)
+        Me.txtAmtPerc.MaxLength = 3
+        Me.txtAmtPerc.Name = "txtAmtPerc"
+        Me.txtAmtPerc.Size = New System.Drawing.Size(38, 22)
+        Me.txtAmtPerc.TabIndex = 3
+        Me.txtAmtPerc.Text = "0"
+        Me.txtAmtPerc.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'stLbl_DateTs
+        '
+        Me.stLbl_DateTs.Image = CType(resources.GetObject("stLbl_DateTs.Image"), System.Drawing.Image)
+        Me.stLbl_DateTs.Name = "stLbl_DateTs"
+        Me.stLbl_DateTs.Size = New System.Drawing.Size(93, 17)
+        Me.stLbl_DateTs.Text = ": วันที่ทำรายการ"
+        Me.stLbl_DateTs.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage
+        '
+        'stLbl_PsTs
+        '
+        Me.stLbl_PsTs.Image = CType(resources.GetObject("stLbl_PsTs.Image"), System.Drawing.Image)
+        Me.stLbl_PsTs.Name = "stLbl_PsTs"
+        Me.stLbl_PsTs.Size = New System.Drawing.Size(81, 17)
+        Me.stLbl_PsTs.Text = ": ผู้ทำรายการ"
+        Me.stLbl_PsTs.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage
+        '
+        'PanelControl3
+        '
+        Me.PanelControl3.Appearance.BackColor = System.Drawing.Color.LightSteelBlue
+        Me.PanelControl3.Appearance.BackColor2 = System.Drawing.Color.CornflowerBlue
+        Me.PanelControl3.Appearance.Options.UseBackColor = True
+        Me.PanelControl3.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder
+        Me.PanelControl3.Controls.Add(Me.Panel1)
+        Me.PanelControl3.Dock = System.Windows.Forms.DockStyle.Bottom
+        Me.PanelControl3.Location = New System.Drawing.Point(0, 506)
+        Me.PanelControl3.Name = "PanelControl3"
+        Me.PanelControl3.Size = New System.Drawing.Size(1191, 35)
+        Me.PanelControl3.TabIndex = 739
+        '
+        'Panel1
+        '
+        Me.Panel1.BackColor = System.Drawing.Color.Transparent
+        Me.Panel1.Controls.Add(Me.btnSave)
+        Me.Panel1.Dock = System.Windows.Forms.DockStyle.Left
+        Me.Panel1.Location = New System.Drawing.Point(0, 0)
+        Me.Panel1.Name = "Panel1"
+        Me.Panel1.Size = New System.Drawing.Size(158, 35)
+        Me.Panel1.TabIndex = 28
+        '
+        'btnSave
+        '
+        Me.btnSave.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnSave.Appearance.Options.UseFont = True
+        Me.btnSave.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.btnSave.Image = CType(resources.GetObject("btnSave.Image"), System.Drawing.Image)
+        Me.btnSave.ImageLocation = DevExpress.XtraEditors.ImageLocation.MiddleCenter
+        Me.btnSave.ImageToTextAlignment = DevExpress.XtraEditors.ImageAlignToText.LeftCenter
+        Me.btnSave.Location = New System.Drawing.Point(0, 3)
+        Me.btnSave.Name = "btnSave"
+        Me.btnSave.Size = New System.Drawing.Size(155, 29)
+        Me.btnSave.TabIndex = 1
+        Me.btnSave.Text = "บันทึกบิลย้อนหลัง"
+        '
+        'StatusStrip2
+        '
+        Me.StatusStrip2.BackColor = System.Drawing.SystemColors.ActiveCaption
+        Me.StatusStrip2.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.stLbl_DateTs, Me.stLbl_PsTs})
+        Me.StatusStrip2.Location = New System.Drawing.Point(0, 541)
+        Me.StatusStrip2.Name = "StatusStrip2"
+        Me.StatusStrip2.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.StatusStrip2.Size = New System.Drawing.Size(1191, 22)
+        Me.StatusStrip2.TabIndex = 738
+        Me.StatusStrip2.Text = "StatusStrip2"
+        '
+        'rdbBathDisc
+        '
+        Me.rdbBathDisc.AutoSize = True
+        Me.rdbBathDisc.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
+        Me.rdbBathDisc.Location = New System.Drawing.Point(16, 49)
+        Me.rdbBathDisc.Name = "rdbBathDisc"
+        Me.rdbBathDisc.Size = New System.Drawing.Size(105, 18)
+        Me.rdbBathDisc.TabIndex = 2
+        Me.rdbBathDisc.Text = "ให้ส่วนลดจำนวน"
+        Me.rdbBathDisc.UseVisualStyleBackColor = True
+        '
+        'colUnitName
+        '
+        Me.colUnitName.AppearanceCell.Font = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.colUnitName.AppearanceCell.Options.UseFont = True
+        Me.colUnitName.AppearanceHeader.Options.UseFont = True
+        Me.colUnitName.Caption = "UnitName"
+        Me.colUnitName.FieldName = "UnitName"
+        Me.colUnitName.Name = "colUnitName"
+        '
+        'stCutStock
+        '
+        Me.stCutStock.AppearanceCell.Font = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.stCutStock.AppearanceCell.Options.UseFont = True
+        Me.stCutStock.AppearanceHeader.Options.UseFont = True
+        Me.stCutStock.Caption = "stCutStock"
+        Me.stCutStock.FieldName = "stCutStock"
+        Me.stCutStock.Name = "stCutStock"
+        '
+        'colpWeight
+        '
+        Me.colpWeight.AppearanceCell.Font = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.colpWeight.AppearanceCell.Options.UseFont = True
+        Me.colpWeight.AppearanceHeader.Options.UseFont = True
+        Me.colpWeight.Caption = "pWeight"
+        Me.colpWeight.FieldName = "pWeight"
+        Me.colpWeight.Name = "colpWeight"
+        '
+        'txtTotalBFDisc
+        '
+        Me.txtTotalBFDisc.BackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.txtTotalBFDisc.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtTotalBFDisc.Font = New System.Drawing.Font("Tahoma", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
+        Me.txtTotalBFDisc.ForeColor = System.Drawing.Color.Lime
+        Me.txtTotalBFDisc.Location = New System.Drawing.Point(996, 8)
+        Me.txtTotalBFDisc.Multiline = True
+        Me.txtTotalBFDisc.Name = "txtTotalBFDisc"
+        Me.txtTotalBFDisc.ReadOnly = True
+        Me.txtTotalBFDisc.Size = New System.Drawing.Size(175, 26)
+        Me.txtTotalBFDisc.TabIndex = 583
+        Me.txtTotalBFDisc.TabStop = False
+        Me.txtTotalBFDisc.Text = "0"
+        Me.txtTotalBFDisc.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
+        '
+        'ColidUnitW
+        '
+        Me.ColidUnitW.AppearanceCell.Font = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.ColidUnitW.AppearanceCell.Options.UseFont = True
+        Me.ColidUnitW.AppearanceHeader.Options.UseFont = True
+        Me.ColidUnitW.Caption = "idUnitW"
+        Me.ColidUnitW.FieldName = "idUnitW"
+        Me.ColidUnitW.Name = "ColidUnitW"
+        '
+        'ImageList1
+        '
+        Me.ImageList1.ImageStream = CType(resources.GetObject("ImageList1.ImageStream"), System.Windows.Forms.ImageListStreamer)
+        Me.ImageList1.TransparentColor = System.Drawing.Color.Transparent
+        Me.ImageList1.Images.SetKeyName(0, "arrow_refresh.png")
+        Me.ImageList1.Images.SetKeyName(1, "blank.gif")
+        '
+        'FileSystemWatcher1
+        '
+        Me.FileSystemWatcher1.EnableRaisingEvents = True
+        Me.FileSystemWatcher1.SynchronizingObject = Me
+        '
+        'PanelControl1
+        '
+        Me.PanelControl1.Appearance.BackColor = System.Drawing.Color.Lavender
+        Me.PanelControl1.Appearance.BackColor2 = System.Drawing.Color.LightSteelBlue
+        Me.PanelControl1.Appearance.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!)
+        Me.PanelControl1.Appearance.Options.UseBackColor = True
+        Me.PanelControl1.Appearance.Options.UseFont = True
+        Me.PanelControl1.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder
+        Me.PanelControl1.Controls.Add(Me.GroupBox1)
+        Me.PanelControl1.Controls.Add(Me.GBDiscount)
+        Me.PanelControl1.Controls.Add(Me.txtTotalBFDisc)
+        Me.PanelControl1.Controls.Add(Me.Label2)
+        Me.PanelControl1.Controls.Add(Me.Panel4)
+        Me.PanelControl1.Controls.Add(Me.GroupBox3)
+        Me.PanelControl1.Controls.Add(Me.GroupBox4)
+        Me.PanelControl1.Controls.Add(Me.Label8)
+        Me.PanelControl1.Controls.Add(Me.txtTotalNet)
+        Me.PanelControl1.Controls.Add(Me.GroupBox6)
+        Me.PanelControl1.Controls.Add(Me.GroupBox9)
+        Me.PanelControl1.Dock = System.Windows.Forms.DockStyle.Top
+        Me.PanelControl1.Location = New System.Drawing.Point(0, 0)
+        Me.PanelControl1.Name = "PanelControl1"
+        Me.PanelControl1.Size = New System.Drawing.Size(1191, 287)
+        Me.PanelControl1.TabIndex = 736
+        '
+        'GroupBox1
+        '
+        Me.GroupBox1.BackColor = System.Drawing.Color.Transparent
+        Me.GroupBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
+        Me.GroupBox1.Controls.Add(Me.lblPsOrder)
+        Me.GroupBox1.Controls.Add(Me.Label19)
+        Me.GroupBox1.Controls.Add(Me.btnPsOrder)
+        Me.GroupBox1.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
+        Me.GroupBox1.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.GroupBox1.Location = New System.Drawing.Point(628, 209)
+        Me.GroupBox1.Name = "GroupBox1"
+        Me.GroupBox1.Size = New System.Drawing.Size(264, 44)
+        Me.GroupBox1.TabIndex = 4
+        Me.GroupBox1.TabStop = False
+        '
+        'lblPsOrder
+        '
+        Me.lblPsOrder.BackColor = System.Drawing.Color.Gainsboro
+        Me.lblPsOrder.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.lblPsOrder.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
+        Me.lblPsOrder.Location = New System.Drawing.Point(48, 13)
+        Me.lblPsOrder.Name = "lblPsOrder"
+        Me.lblPsOrder.Size = New System.Drawing.Size(181, 23)
+        Me.lblPsOrder.TabIndex = 635
+        Me.lblPsOrder.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        '
+        'Label19
+        '
+        Me.Label19.AutoSize = True
+        Me.Label19.BackColor = System.Drawing.Color.Transparent
+        Me.Label19.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
+        Me.Label19.Location = New System.Drawing.Point(4, 16)
+        Me.Label19.Name = "Label19"
+        Me.Label19.Size = New System.Drawing.Size(42, 14)
+        Me.Label19.TabIndex = 974
+        Me.Label19.Text = "ชื่อผู้สั่ง"
+        '
+        'btnPsOrder
+        '
+        Me.btnPsOrder.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
+        Me.btnPsOrder.Appearance.Options.UseFont = True
+        Me.btnPsOrder.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.btnPsOrder.Image = CType(resources.GetObject("btnPsOrder.Image"), System.Drawing.Image)
+        Me.btnPsOrder.ImageLocation = DevExpress.XtraEditors.ImageLocation.MiddleCenter
+        Me.btnPsOrder.Location = New System.Drawing.Point(231, 14)
+        Me.btnPsOrder.Name = "btnPsOrder"
+        Me.btnPsOrder.Size = New System.Drawing.Size(25, 22)
+        Me.btnPsOrder.TabIndex = 5
+        '
+        'GBDiscount
+        '
+        Me.GBDiscount.BackColor = System.Drawing.Color.Transparent
+        Me.GBDiscount.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
+        Me.GBDiscount.Controls.Add(Me.Label9)
+        Me.GBDiscount.Controls.Add(Me.txtDiscBath)
+        Me.GBDiscount.Controls.Add(Me.lblPerc)
+        Me.GBDiscount.Controls.Add(Me.Label4)
+        Me.GBDiscount.Controls.Add(Me.txtAmtPerc)
+        Me.GBDiscount.Controls.Add(Me.rdbBathDisc)
+        Me.GBDiscount.Controls.Add(Me.rdbPerDisc)
+        Me.GBDiscount.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
+        Me.GBDiscount.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.GBDiscount.Location = New System.Drawing.Point(908, 36)
+        Me.GBDiscount.Name = "GBDiscount"
+        Me.GBDiscount.Size = New System.Drawing.Size(269, 74)
+        Me.GBDiscount.TabIndex = 6
+        Me.GBDiscount.TabStop = False
+        Me.GBDiscount.Text = "การให้ส่วนลด"
+        '
+        'rdbPerDisc
+        '
+        Me.rdbPerDisc.AutoSize = True
+        Me.rdbPerDisc.Checked = True
+        Me.rdbPerDisc.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
+        Me.rdbPerDisc.Location = New System.Drawing.Point(16, 25)
+        Me.rdbPerDisc.Name = "rdbPerDisc"
+        Me.rdbPerDisc.Size = New System.Drawing.Size(88, 18)
+        Me.rdbPerDisc.TabIndex = 1
+        Me.rdbPerDisc.TabStop = True
+        Me.rdbPerDisc.Text = "ให้ส่วนลด %"
+        Me.rdbPerDisc.UseVisualStyleBackColor = True
+        '
+        'Panel4
+        '
+        Me.Panel4.Controls.Add(Me.gcNote)
+        Me.Panel4.Location = New System.Drawing.Point(898, 150)
+        Me.Panel4.Name = "Panel4"
+        Me.Panel4.Size = New System.Drawing.Size(277, 127)
+        Me.Panel4.TabIndex = 7
+        '
+        'gcNote
+        '
+        Me.gcNote.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.gcNote.Location = New System.Drawing.Point(0, 0)
+        Me.gcNote.MainView = Me.gvNote
+        Me.gcNote.Name = "gcNote"
+        Me.gcNote.Size = New System.Drawing.Size(277, 127)
+        Me.gcNote.TabIndex = 4
+        Me.gcNote.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.gvNote})
+        '
+        'gvNote
+        '
+        Me.gvNote.Appearance.FocusedCell.BackColor = System.Drawing.Color.LemonChiffon
+        Me.gvNote.Appearance.FocusedCell.Options.UseBackColor = True
+        Me.gvNote.Appearance.FocusedRow.BackColor = System.Drawing.Color.LemonChiffon
+        Me.gvNote.Appearance.FocusedRow.Options.UseBackColor = True
+        Me.gvNote.ColumnPanelRowHeight = 10
+        Me.gvNote.Columns.AddRange(New DevExpress.XtraGrid.Columns.GridColumn() {Me.colNote})
+        Me.gvNote.GridControl = Me.gcNote
+        Me.gvNote.Name = "gvNote"
+        Me.gvNote.OptionsBehavior.AllowAddRows = DevExpress.Utils.DefaultBoolean.[True]
+        Me.gvNote.OptionsBehavior.EditorShowMode = DevExpress.Utils.EditorShowMode.MouseUp
+        Me.gvNote.OptionsNavigation.AutoFocusNewRow = True
+        Me.gvNote.OptionsNavigation.UseTabKey = False
+        Me.gvNote.OptionsView.NewItemRowPosition = DevExpress.XtraGrid.Views.Grid.NewItemRowPosition.Bottom
+        Me.gvNote.OptionsView.RowAutoHeight = True
+        Me.gvNote.OptionsView.ShowFilterPanelMode = DevExpress.XtraGrid.Views.Base.ShowFilterPanelMode.Never
+        Me.gvNote.OptionsView.ShowGroupPanel = False
+        Me.gvNote.OptionsView.ShowIndicator = False
+        '
+        'colNote
+        '
+        Me.colNote.AppearanceHeader.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
+        Me.colNote.AppearanceHeader.Options.UseFont = True
+        Me.colNote.AppearanceHeader.Options.UseTextOptions = True
+        Me.colNote.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
+        Me.colNote.Caption = "หมายเหตุ"
+        Me.colNote.FieldName = "Note"
+        Me.colNote.Name = "colNote"
+        Me.colNote.Visible = True
+        Me.colNote.VisibleIndex = 0
+        '
+        'GroupBox3
+        '
+        Me.GroupBox3.BackColor = System.Drawing.Color.Transparent
+        Me.GroupBox3.Controls.Add(Me.btnTspComp)
+        Me.GroupBox3.Controls.Add(Me.btnAddressS)
+        Me.GroupBox3.Controls.Add(Me.cmbBillSaleCont)
+        Me.GroupBox3.Controls.Add(Me.btnCustomer)
+        Me.GroupBox3.Controls.Add(Me.lblTspComp)
+        Me.GroupBox3.Controls.Add(Me.lblCusNote)
+        Me.GroupBox3.Controls.Add(Me.Label56)
+        Me.GroupBox3.Controls.Add(Me.Label54)
+        Me.GroupBox3.Controls.Add(Me.cmbTypePayTrp)
+        Me.GroupBox3.Controls.Add(Me.lblAddr)
+        Me.GroupBox3.Controls.Add(Me.Label14)
+        Me.GroupBox3.Controls.Add(Me.txtBillSaleCont)
+        Me.GroupBox3.Controls.Add(Me.Label16)
+        Me.GroupBox3.Controls.Add(Me.Label12)
+        Me.GroupBox3.Controls.Add(Me.CmbTs)
+        Me.GroupBox3.Controls.Add(Me.lblTS)
+        Me.GroupBox3.Controls.Add(Me.lblCusRec)
+        Me.GroupBox3.Controls.Add(Me.Label5)
+        Me.GroupBox3.Controls.Add(Me.Label40)
+        Me.GroupBox3.Controls.Add(Me.lblPsCus)
+        Me.GroupBox3.Controls.Add(Me.Label6)
+        Me.GroupBox3.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.GroupBox3.Location = New System.Drawing.Point(6, 95)
+        Me.GroupBox3.Name = "GroupBox3"
+        Me.GroupBox3.Size = New System.Drawing.Size(616, 185)
+        Me.GroupBox3.TabIndex = 1
+        Me.GroupBox3.TabStop = False
+        '
+        'btnTspComp
+        '
+        Me.btnTspComp.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.btnTspComp.Image = CType(resources.GetObject("btnTspComp.Image"), System.Drawing.Image)
+        Me.btnTspComp.ImageLocation = DevExpress.XtraEditors.ImageLocation.MiddleCenter
+        Me.btnTspComp.Location = New System.Drawing.Point(584, 131)
+        Me.btnTspComp.Name = "btnTspComp"
+        Me.btnTspComp.Size = New System.Drawing.Size(25, 22)
+        Me.btnTspComp.TabIndex = 7
+        '
+        'btnAddressS
+        '
+        Me.btnAddressS.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.btnAddressS.Image = CType(resources.GetObject("btnAddressS.Image"), System.Drawing.Image)
+        Me.btnAddressS.ImageLocation = DevExpress.XtraEditors.ImageLocation.MiddleCenter
+        Me.btnAddressS.Location = New System.Drawing.Point(582, 15)
+        Me.btnAddressS.Name = "btnAddressS"
+        Me.btnAddressS.Size = New System.Drawing.Size(25, 22)
+        Me.btnAddressS.TabIndex = 4
+        '
+        'cmbBillSaleCont
+        '
+        Me.cmbBillSaleCont.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.cmbBillSaleCont.Enabled = False
+        Me.cmbBillSaleCont.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
+        Me.cmbBillSaleCont.FormattingEnabled = True
+        Me.cmbBillSaleCont.Location = New System.Drawing.Point(66, 156)
+        Me.cmbBillSaleCont.Name = "cmbBillSaleCont"
+        Me.cmbBillSaleCont.Size = New System.Drawing.Size(54, 22)
+        Me.cmbBillSaleCont.TabIndex = 2
+        Me.cmbBillSaleCont.Visible = False
+        '
+        'btnCustomer
+        '
+        Me.btnCustomer.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
+        Me.btnCustomer.Appearance.Options.UseFont = True
+        Me.btnCustomer.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.btnCustomer.Image = CType(resources.GetObject("btnCustomer.Image"), System.Drawing.Image)
+        Me.btnCustomer.ImageLocation = DevExpress.XtraEditors.ImageLocation.MiddleCenter
+        Me.btnCustomer.Location = New System.Drawing.Point(275, 16)
+        Me.btnCustomer.Name = "btnCustomer"
+        Me.btnCustomer.Size = New System.Drawing.Size(25, 22)
+        Me.btnCustomer.TabIndex = 0
+        '
+        'lblTspComp
+        '
+        Me.lblTspComp.BackColor = System.Drawing.Color.Gainsboro
+        Me.lblTspComp.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.lblTspComp.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
+        Me.lblTspComp.Location = New System.Drawing.Point(399, 132)
+        Me.lblTspComp.Name = "lblTspComp"
+        Me.lblTspComp.Size = New System.Drawing.Size(183, 20)
+        Me.lblTspComp.TabIndex = 634
+        Me.lblTspComp.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        '
+        'lblCusNote
+        '
+        Me.lblCusNote.BackColor = System.Drawing.Color.Lavender
+        Me.lblCusNote.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.lblCusNote.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
+        Me.lblCusNote.ForeColor = System.Drawing.Color.Red
+        Me.lblCusNote.Location = New System.Drawing.Point(72, 65)
+        Me.lblCusNote.Multiline = True
+        Me.lblCusNote.Name = "lblCusNote"
+        Me.lblCusNote.ReadOnly = True
+        Me.lblCusNote.ScrollBars = System.Windows.Forms.ScrollBars.Vertical
+        Me.lblCusNote.Size = New System.Drawing.Size(201, 87)
+        Me.lblCusNote.TabIndex = 1
+        '
+        'Label56
+        '
+        Me.Label56.AutoSize = True
+        Me.Label56.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
+        Me.Label56.Location = New System.Drawing.Point(333, 134)
+        Me.Label56.Name = "Label56"
+        Me.Label56.Size = New System.Drawing.Size(65, 14)
+        Me.Label56.TabIndex = 633
+        Me.Label56.Text = "บริษัทขนส่ง"
+        '
+        'Label54
+        '
+        Me.Label54.AutoSize = True
+        Me.Label54.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
+        Me.Label54.Location = New System.Drawing.Point(294, 158)
+        Me.Label54.Name = "Label54"
+        Me.Label54.Size = New System.Drawing.Size(102, 14)
+        Me.Label54.TabIndex = 630
+        Me.Label54.Text = "การจ่ายเงินค่าขนส่ง"
+        '
+        'cmbTypePayTrp
+        '
+        Me.cmbTypePayTrp.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.cmbTypePayTrp.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
+        Me.cmbTypePayTrp.FormattingEnabled = True
+        Me.cmbTypePayTrp.Location = New System.Drawing.Point(399, 155)
+        Me.cmbTypePayTrp.Name = "cmbTypePayTrp"
+        Me.cmbTypePayTrp.Size = New System.Drawing.Size(209, 22)
+        Me.cmbTypePayTrp.TabIndex = 8
+        '
+        'lblAddr
+        '
+        Me.lblAddr.BackColor = System.Drawing.Color.Gainsboro
+        Me.lblAddr.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.lblAddr.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
+        Me.lblAddr.Location = New System.Drawing.Point(399, 43)
+        Me.lblAddr.Name = "lblAddr"
+        Me.lblAddr.Size = New System.Drawing.Size(209, 59)
+        Me.lblAddr.TabIndex = 5
+        Me.lblAddr.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        '
+        'Label14
+        '
+        Me.Label14.AutoSize = True
+        Me.Label14.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
+        Me.Label14.Location = New System.Drawing.Point(353, 19)
+        Me.Label14.Name = "Label14"
+        Me.Label14.Size = New System.Drawing.Size(42, 14)
+        Me.Label14.TabIndex = 617
+        Me.Label14.Text = "ชื่อผู้รับ"
+        '
+        'txtBillSaleCont
+        '
+        Me.txtBillSaleCont.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest
+        Me.txtBillSaleCont.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.CustomSource
+        Me.txtBillSaleCont.Enabled = False
+        Me.txtBillSaleCont.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
+        Me.txtBillSaleCont.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.txtBillSaleCont.Location = New System.Drawing.Point(122, 156)
+        Me.txtBillSaleCont.MaxLength = 20
+        Me.txtBillSaleCont.Name = "txtBillSaleCont"
+        Me.txtBillSaleCont.Size = New System.Drawing.Size(151, 22)
+        Me.txtBillSaleCont.TabIndex = 3
+        Me.txtBillSaleCont.Visible = False
+        '
+        'Label16
+        '
+        Me.Label16.AutoSize = True
+        Me.Label16.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
+        Me.Label16.Location = New System.Drawing.Point(10, 66)
+        Me.Label16.Name = "Label16"
+        Me.Label16.Size = New System.Drawing.Size(54, 14)
+        Me.Label16.TabIndex = 621
+        Me.Label16.Text = "หมายเหตุ"
+        '
+        'Label12
+        '
+        Me.Label12.AutoSize = True
+        Me.Label12.BackColor = System.Drawing.Color.Transparent
+        Me.Label12.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
+        Me.Label12.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.Label12.Location = New System.Drawing.Point(3, 161)
+        Me.Label12.Name = "Label12"
+        Me.Label12.Size = New System.Drawing.Size(60, 14)
+        Me.Label12.TabIndex = 978
+        Me.Label12.Text = "บิลต่อเนื่อง"
+        Me.Label12.Visible = False
+        '
+        'CmbTs
+        '
+        Me.CmbTs.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.CmbTs.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
+        Me.CmbTs.FormattingEnabled = True
+        Me.CmbTs.Location = New System.Drawing.Point(399, 106)
+        Me.CmbTs.Name = "CmbTs"
+        Me.CmbTs.Size = New System.Drawing.Size(209, 22)
+        Me.CmbTs.TabIndex = 6
+        '
+        'lblTS
+        '
+        Me.lblTS.AutoSize = True
+        Me.lblTS.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
+        Me.lblTS.Location = New System.Drawing.Point(323, 109)
+        Me.lblTS.Name = "lblTS"
+        Me.lblTS.Size = New System.Drawing.Size(72, 14)
+        Me.lblTS.TabIndex = 596
+        Me.lblTS.Text = "ประเภทขนส่ง"
+        '
+        'lblCusRec
+        '
+        Me.lblCusRec.BackColor = System.Drawing.Color.Gainsboro
+        Me.lblCusRec.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.lblCusRec.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
+        Me.lblCusRec.Location = New System.Drawing.Point(399, 15)
+        Me.lblCusRec.Name = "lblCusRec"
+        Me.lblCusRec.Size = New System.Drawing.Size(181, 23)
+        Me.lblCusRec.TabIndex = 616
+        Me.lblCusRec.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        '
+        'Label5
+        '
+        Me.Label5.AutoSize = True
+        Me.Label5.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
+        Me.Label5.Location = New System.Drawing.Point(19, 78)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(34, 14)
+        Me.Label5.TabIndex = 620
+        Me.Label5.Text = "ลูกค้า"
+        '
+        'Label40
+        '
+        Me.Label40.AutoSize = True
+        Me.Label40.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
+        Me.Label40.Location = New System.Drawing.Point(338, 43)
+        Me.Label40.Name = "Label40"
+        Me.Label40.Size = New System.Drawing.Size(57, 14)
+        Me.Label40.TabIndex = 614
+        Me.Label40.Text = "ที่อยู่จัดส่ง"
+        '
+        'lblPsCus
+        '
+        Me.lblPsCus.BackColor = System.Drawing.Color.Gainsboro
+        Me.lblPsCus.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.lblPsCus.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
+        Me.lblPsCus.Location = New System.Drawing.Point(72, 16)
+        Me.lblPsCus.Name = "lblPsCus"
+        Me.lblPsCus.Size = New System.Drawing.Size(201, 45)
+        Me.lblPsCus.TabIndex = 583
+        Me.lblPsCus.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        '
+        'Label6
+        '
+        Me.Label6.AutoSize = True
+        Me.Label6.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
+        Me.Label6.Location = New System.Drawing.Point(33, 19)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(34, 14)
+        Me.Label6.TabIndex = 582
+        Me.Label6.Text = "ลูกค้า"
+        '
+        'GroupBox4
+        '
+        Me.GroupBox4.BackColor = System.Drawing.Color.Transparent
+        Me.GroupBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
+        Me.GroupBox4.Controls.Add(Me.rdbBill)
+        Me.GroupBox4.Controls.Add(Me.rdbWhole)
+        Me.GroupBox4.Controls.Add(Me.rdbRetail)
+        Me.GroupBox4.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
+        Me.GroupBox4.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.GroupBox4.Location = New System.Drawing.Point(628, 8)
+        Me.GroupBox4.Name = "GroupBox4"
+        Me.GroupBox4.Size = New System.Drawing.Size(264, 56)
+        Me.GroupBox4.TabIndex = 2
+        Me.GroupBox4.TabStop = False
+        Me.GroupBox4.Text = "การให้ราคาบิลนี้"
+        '
+        'rdbBill
+        '
+        Me.rdbBill.AutoSize = True
+        Me.rdbBill.Checked = True
+        Me.rdbBill.Location = New System.Drawing.Point(91, 23)
+        Me.rdbBill.Name = "rdbBill"
+        Me.rdbBill.Size = New System.Drawing.Size(90, 18)
+        Me.rdbBill.TabIndex = 1
+        Me.rdbBill.TabStop = True
+        Me.rdbBill.Text = "ราคาหน้าบิล"
+        Me.rdbBill.UseVisualStyleBackColor = True
+        '
+        'rdbWhole
+        '
+        Me.rdbWhole.AutoSize = True
+        Me.rdbWhole.Location = New System.Drawing.Point(22, 23)
+        Me.rdbWhole.Name = "rdbWhole"
+        Me.rdbWhole.Size = New System.Drawing.Size(66, 18)
+        Me.rdbWhole.TabIndex = 0
+        Me.rdbWhole.TabStop = True
+        Me.rdbWhole.Text = "ราคาส่ง"
+        Me.rdbWhole.UseVisualStyleBackColor = True
+        '
+        'rdbRetail
+        '
+        Me.rdbRetail.AutoSize = True
+        Me.rdbRetail.Location = New System.Drawing.Point(187, 23)
+        Me.rdbRetail.Name = "rdbRetail"
+        Me.rdbRetail.Size = New System.Drawing.Size(75, 18)
+        Me.rdbRetail.TabIndex = 2
+        Me.rdbRetail.TabStop = True
+        Me.rdbRetail.Text = "ราคาปลีก"
+        Me.rdbRetail.UseVisualStyleBackColor = True
+        '
+        'Label8
+        '
+        Me.Label8.AutoSize = True
+        Me.Label8.BackColor = System.Drawing.Color.Transparent
+        Me.Label8.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
+        Me.Label8.Location = New System.Drawing.Point(905, 124)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(90, 14)
+        Me.Label8.TabIndex = 579
+        Me.Label8.Text = "รวมเป็นเงินสุทธิ"
+        '
+        'txtTotalNet
+        '
+        Me.txtTotalNet.BackColor = System.Drawing.Color.Black
+        Me.txtTotalNet.Font = New System.Drawing.Font("Tahoma", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
+        Me.txtTotalNet.ForeColor = System.Drawing.Color.Lime
+        Me.txtTotalNet.Location = New System.Drawing.Point(996, 118)
+        Me.txtTotalNet.Name = "txtTotalNet"
+        Me.txtTotalNet.ReadOnly = True
+        Me.txtTotalNet.Size = New System.Drawing.Size(175, 27)
+        Me.txtTotalNet.TabIndex = 578
+        Me.txtTotalNet.TabStop = False
+        Me.txtTotalNet.Text = "0"
+        Me.txtTotalNet.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
+        '
+        'GroupBox6
+        '
+        Me.GroupBox6.BackColor = System.Drawing.Color.Transparent
+        Me.GroupBox6.Controls.Add(Me.Label11)
+        Me.GroupBox6.Controls.Add(Me.btnRefDoc)
+        Me.GroupBox6.Controls.Add(Me.btnSale)
+        Me.GroupBox6.Controls.Add(Me.lblRefAcc)
+        Me.GroupBox6.Controls.Add(Me.cmbGroupComp)
+        Me.GroupBox6.Controls.Add(Me.Label38)
+        Me.GroupBox6.Controls.Add(Me.Label24)
+        Me.GroupBox6.Controls.Add(Me.lblDocCode)
+        Me.GroupBox6.Controls.Add(Me.Label1)
+        Me.GroupBox6.Controls.Add(Me.dtpSale)
+        Me.GroupBox6.Controls.Add(Me.cmbDRCode)
+        Me.GroupBox6.Controls.Add(Me.txtDocRef)
+        Me.GroupBox6.Controls.Add(Me.Label10)
+        Me.GroupBox6.Controls.Add(Me.lblPsSale)
+        Me.GroupBox6.Controls.Add(Me.Label15)
+        Me.GroupBox6.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.GroupBox6.Location = New System.Drawing.Point(6, 3)
+        Me.GroupBox6.Name = "GroupBox6"
+        Me.GroupBox6.Size = New System.Drawing.Size(616, 92)
+        Me.GroupBox6.TabIndex = 0
+        Me.GroupBox6.TabStop = False
+        '
+        'Label11
+        '
+        Me.Label11.AutoSize = True
+        Me.Label11.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
+        Me.Label11.Location = New System.Drawing.Point(325, 20)
+        Me.Label11.Name = "Label11"
+        Me.Label11.Size = New System.Drawing.Size(70, 14)
+        Me.Label11.TabIndex = 558
+        Me.Label11.Text = "เลขที่รายการ"
+        '
+        'btnRefDoc
+        '
+        Me.btnRefDoc.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
+        Me.btnRefDoc.Appearance.Options.UseFont = True
+        Me.btnRefDoc.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.btnRefDoc.Image = CType(resources.GetObject("btnRefDoc.Image"), System.Drawing.Image)
+        Me.btnRefDoc.ImageLocation = DevExpress.XtraEditors.ImageLocation.MiddleCenter
+        Me.btnRefDoc.Location = New System.Drawing.Point(275, 40)
+        Me.btnRefDoc.Name = "btnRefDoc"
+        Me.btnRefDoc.Size = New System.Drawing.Size(25, 22)
+        Me.btnRefDoc.TabIndex = 3
+        '
+        'btnSale
+        '
+        Me.btnSale.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
+        Me.btnSale.Appearance.Options.UseFont = True
+        Me.btnSale.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.btnSale.Enabled = False
+        Me.btnSale.Image = CType(resources.GetObject("btnSale.Image"), System.Drawing.Image)
+        Me.btnSale.ImageLocation = DevExpress.XtraEditors.ImageLocation.MiddleCenter
+        Me.btnSale.Location = New System.Drawing.Point(582, 66)
+        Me.btnSale.Name = "btnSale"
+        Me.btnSale.Size = New System.Drawing.Size(25, 22)
+        Me.btnSale.TabIndex = 5
+        '
+        'lblRefAcc
+        '
+        Me.lblRefAcc.BackColor = System.Drawing.Color.Gainsboro
+        Me.lblRefAcc.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.lblRefAcc.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
+        Me.lblRefAcc.Location = New System.Drawing.Point(399, 42)
+        Me.lblRefAcc.Name = "lblRefAcc"
+        Me.lblRefAcc.Size = New System.Drawing.Size(208, 20)
+        Me.lblRefAcc.TabIndex = 616
+        Me.lblRefAcc.Text = "- - - - - - - - - - "
+        Me.lblRefAcc.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        '
+        'cmbGroupComp
+        '
+        Me.cmbGroupComp.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.cmbGroupComp.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
+        Me.cmbGroupComp.FormattingEnabled = True
+        Me.cmbGroupComp.Location = New System.Drawing.Point(76, 14)
+        Me.cmbGroupComp.Name = "cmbGroupComp"
+        Me.cmbGroupComp.Size = New System.Drawing.Size(224, 22)
+        Me.cmbGroupComp.TabIndex = 0
+        '
+        'Label38
+        '
+        Me.Label38.AutoSize = True
+        Me.Label38.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
+        Me.Label38.ForeColor = System.Drawing.Color.Black
+        Me.Label38.Location = New System.Drawing.Point(315, 45)
+        Me.Label38.Name = "Label38"
+        Me.Label38.Size = New System.Drawing.Size(81, 14)
+        Me.Label38.TabIndex = 596
+        Me.Label38.Text = "เลขที่ทางบัญชี"
+        '
+        'Label24
+        '
+        Me.Label24.AutoSize = True
+        Me.Label24.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
+        Me.Label24.ForeColor = System.Drawing.Color.Black
+        Me.Label24.Location = New System.Drawing.Point(9, 42)
+        Me.Label24.Name = "Label24"
+        Me.Label24.Size = New System.Drawing.Size(66, 14)
+        Me.Label24.TabIndex = 576
+        Me.Label24.Text = "เลขที่อ้างอิง"
+        '
+        'lblDocCode
+        '
+        Me.lblDocCode.BackColor = System.Drawing.Color.Gainsboro
+        Me.lblDocCode.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.lblDocCode.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
+        Me.lblDocCode.Location = New System.Drawing.Point(399, 17)
+        Me.lblDocCode.Name = "lblDocCode"
+        Me.lblDocCode.Size = New System.Drawing.Size(208, 20)
+        Me.lblDocCode.TabIndex = 561
+        Me.lblDocCode.Text = "- - - - - - - - - - "
+        Me.lblDocCode.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
+        Me.Label1.Location = New System.Drawing.Point(21, 68)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(49, 14)
+        Me.Label1.TabIndex = 421
+        Me.Label1.Text = "วันที่ขาย"
+        '
+        'dtpSale
+        '
+        Me.dtpSale.CustomFormat = "ddMMMMyyyy"
+        Me.dtpSale.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
+        Me.dtpSale.Format = System.Windows.Forms.DateTimePickerFormat.Custom
+        Me.dtpSale.Location = New System.Drawing.Point(76, 64)
+        Me.dtpSale.Name = "dtpSale"
+        Me.dtpSale.Size = New System.Drawing.Size(155, 22)
+        Me.dtpSale.TabIndex = 4
+        '
+        'cmbDRCode
+        '
+        Me.cmbDRCode.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.cmbDRCode.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
+        Me.cmbDRCode.FormattingEnabled = True
+        Me.cmbDRCode.Location = New System.Drawing.Point(76, 39)
+        Me.cmbDRCode.Name = "cmbDRCode"
+        Me.cmbDRCode.Size = New System.Drawing.Size(54, 22)
+        Me.cmbDRCode.TabIndex = 1
+        '
+        'txtDocRef
+        '
+        Me.txtDocRef.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest
+        Me.txtDocRef.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.CustomSource
+        Me.txtDocRef.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
+        Me.txtDocRef.Location = New System.Drawing.Point(133, 40)
+        Me.txtDocRef.MaxLength = 9
+        Me.txtDocRef.Name = "txtDocRef"
+        Me.txtDocRef.Size = New System.Drawing.Size(140, 22)
+        Me.txtDocRef.TabIndex = 2
+        '
+        'Label10
+        '
+        Me.Label10.AutoSize = True
+        Me.Label10.BackColor = System.Drawing.Color.Transparent
+        Me.Label10.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
+        Me.Label10.Location = New System.Drawing.Point(32, 17)
+        Me.Label10.Name = "Label10"
+        Me.Label10.Size = New System.Drawing.Size(38, 14)
+        Me.Label10.TabIndex = 967
+        Me.Label10.Text = "บริษัท"
+        '
+        'lblPsSale
+        '
+        Me.lblPsSale.BackColor = System.Drawing.Color.Gainsboro
+        Me.lblPsSale.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.lblPsSale.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
+        Me.lblPsSale.Location = New System.Drawing.Point(399, 66)
+        Me.lblPsSale.Name = "lblPsSale"
+        Me.lblPsSale.Size = New System.Drawing.Size(181, 23)
+        Me.lblPsSale.TabIndex = 586
+        Me.lblPsSale.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        '
+        'Label15
+        '
+        Me.Label15.AutoSize = True
+        Me.Label15.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
+        Me.Label15.Location = New System.Drawing.Point(321, 68)
+        Me.Label15.Name = "Label15"
+        Me.Label15.Size = New System.Drawing.Size(74, 14)
+        Me.Label15.TabIndex = 585
+        Me.Label15.Text = "เจ้าหน้าที่ขาย"
+        '
+        'GroupBox9
+        '
+        Me.GroupBox9.BackColor = System.Drawing.Color.Transparent
+        Me.GroupBox9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
+        Me.GroupBox9.Controls.Add(Me.Label18)
+        Me.GroupBox9.Controls.Add(Me.txtPrePay)
+        Me.GroupBox9.Controls.Add(Me.rdbRight)
+        Me.GroupBox9.Controls.Add(Me.Label13)
+        Me.GroupBox9.Controls.Add(Me.txtPercP)
+        Me.GroupBox9.Controls.Add(Me.rdbNoRight)
+        Me.GroupBox9.Controls.Add(Me.Label7)
+        Me.GroupBox9.Controls.Add(Me.cmbTp)
+        Me.GroupBox9.Controls.Add(Me.Label21)
+        Me.GroupBox9.Controls.Add(Me.dtpPay)
+        Me.GroupBox9.Controls.Add(Me.Label3)
+        Me.GroupBox9.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
+        Me.GroupBox9.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.GroupBox9.Location = New System.Drawing.Point(628, 72)
+        Me.GroupBox9.Name = "GroupBox9"
+        Me.GroupBox9.Size = New System.Drawing.Size(264, 138)
+        Me.GroupBox9.TabIndex = 3
+        Me.GroupBox9.TabStop = False
+        Me.GroupBox9.Text = "การชำระเงินบิลนี้"
+        '
+        'Label18
+        '
+        Me.Label18.AutoSize = True
+        Me.Label18.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
+        Me.Label18.Location = New System.Drawing.Point(13, 111)
+        Me.Label18.Name = "Label18"
+        Me.Label18.Size = New System.Drawing.Size(71, 14)
+        Me.Label18.TabIndex = 969
+        Me.Label18.Text = "หลักสรรพากร"
+        '
+        'txtPrePay
+        '
+        Me.txtPrePay.BackColor = System.Drawing.Color.Gainsboro
+        Me.txtPrePay.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
+        Me.txtPrePay.ForeColor = System.Drawing.Color.Black
+        Me.txtPrePay.Location = New System.Drawing.Point(174, 51)
+        Me.txtPrePay.Name = "txtPrePay"
+        Me.txtPrePay.ReadOnly = True
+        Me.txtPrePay.Size = New System.Drawing.Size(85, 22)
+        Me.txtPrePay.TabIndex = 599
+        Me.txtPrePay.TabStop = False
+        Me.txtPrePay.Text = "0"
+        Me.txtPrePay.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
+        '
+        'rdbRight
+        '
+        Me.rdbRight.AutoSize = True
+        Me.rdbRight.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
+        Me.rdbRight.Location = New System.Drawing.Point(90, 109)
+        Me.rdbRight.Name = "rdbRight"
+        Me.rdbRight.Size = New System.Drawing.Size(61, 18)
+        Me.rdbRight.TabIndex = 5
+        Me.rdbRight.TabStop = True
+        Me.rdbRight.Text = "ถูกหลัก"
+        Me.rdbRight.UseVisualStyleBackColor = True
+        '
+        'Label13
+        '
+        Me.Label13.AutoSize = True
+        Me.Label13.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
+        Me.Label13.Location = New System.Drawing.Point(145, 54)
+        Me.Label13.Name = "Label13"
+        Me.Label13.Size = New System.Drawing.Size(32, 14)
+        Me.Label13.TabIndex = 598
+        Me.Label13.Text = "% ="
+        '
+        'txtPercP
+        '
+        Me.txtPercP.BackColor = System.Drawing.Color.White
+        Me.txtPercP.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
+        Me.txtPercP.ForeColor = System.Drawing.Color.Black
+        Me.txtPercP.Location = New System.Drawing.Point(88, 50)
+        Me.txtPercP.MaxLength = 3
+        Me.txtPercP.Name = "txtPercP"
+        Me.txtPercP.ReadOnly = True
+        Me.txtPercP.Size = New System.Drawing.Size(56, 22)
+        Me.txtPercP.TabIndex = 1
+        Me.txtPercP.Text = "0"
+        Me.txtPercP.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'rdbNoRight
+        '
+        Me.rdbNoRight.AutoSize = True
+        Me.rdbNoRight.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
+        Me.rdbNoRight.Location = New System.Drawing.Point(168, 109)
+        Me.rdbNoRight.Name = "rdbNoRight"
+        Me.rdbNoRight.Size = New System.Drawing.Size(74, 18)
+        Me.rdbNoRight.TabIndex = 6
+        Me.rdbNoRight.TabStop = True
+        Me.rdbNoRight.Text = "ไม่ถูกหลัก"
+        Me.rdbNoRight.UseVisualStyleBackColor = True
+        '
+        'Label7
+        '
+        Me.Label7.AutoSize = True
+        Me.Label7.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
+        Me.Label7.Location = New System.Drawing.Point(34, 52)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(51, 14)
+        Me.Label7.TabIndex = 596
+        Me.Label7.Text = "เงินมัดจำ"
+        '
+        'cmbTp
+        '
+        Me.cmbTp.Cursor = System.Windows.Forms.Cursors.Default
+        Me.cmbTp.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.cmbTp.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
+        Me.cmbTp.FormattingEnabled = True
+        Me.cmbTp.Location = New System.Drawing.Point(87, 21)
+        Me.cmbTp.Name = "cmbTp"
+        Me.cmbTp.Size = New System.Drawing.Size(172, 22)
+        Me.cmbTp.TabIndex = 0
+        '
+        'Label21
+        '
+        Me.Label21.AutoSize = True
+        Me.Label21.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
+        Me.Label21.Location = New System.Drawing.Point(17, 24)
+        Me.Label21.Name = "Label21"
+        Me.Label21.Size = New System.Drawing.Size(68, 14)
+        Me.Label21.TabIndex = 594
+        Me.Label21.Text = "เงื่อนไขชำระ"
+        '
+        'dtpPay
+        '
+        Me.dtpPay.CustomFormat = "ddMMMMyyyy"
+        Me.dtpPay.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
+        Me.dtpPay.Format = System.Windows.Forms.DateTimePickerFormat.Custom
+        Me.dtpPay.Location = New System.Drawing.Point(88, 80)
+        Me.dtpPay.Name = "dtpPay"
+        Me.dtpPay.Size = New System.Drawing.Size(171, 22)
+        Me.dtpPay.TabIndex = 2
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
+        Me.Label3.Location = New System.Drawing.Point(21, 83)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(66, 14)
+        Me.Label3.TabIndex = 569
+        Me.Label3.Text = "วันที่จ่ายเงิน"
+        '
+        'rptPdCode
+        '
+        Me.rptPdCode.AutoHeight = False
+        Me.rptPdCode.ContextImageAlignment = DevExpress.XtraEditors.ContextImageAlignment.Far
+        Me.rptPdCode.Name = "rptPdCode"
+        '
+        'ContextMenuStrip1
+        '
+        Me.ContextMenuStrip1.Name = "ContextMenuStrip1"
+        Me.ContextMenuStrip1.Size = New System.Drawing.Size(61, 4)
+        '
+        'ColPdCode
+        '
+        Me.ColPdCode.AppearanceCell.Font = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.ColPdCode.AppearanceCell.Options.UseFont = True
+        Me.ColPdCode.AppearanceCell.Options.UseImage = True
+        Me.ColPdCode.AppearanceCell.Options.UseTextOptions = True
+        Me.ColPdCode.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
+        Me.ColPdCode.AppearanceHeader.Options.UseFont = True
+        Me.ColPdCode.AppearanceHeader.Options.UseTextOptions = True
+        Me.ColPdCode.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
+        Me.ColPdCode.Caption = "รหัสสินค้า"
+        Me.ColPdCode.ColumnEdit = Me.rptPdCode
+        Me.ColPdCode.FieldName = "PdCode"
+        Me.ColPdCode.MinWidth = 115
+        Me.ColPdCode.Name = "ColPdCode"
+        Me.ColPdCode.Visible = True
+        Me.ColPdCode.VisibleIndex = 1
+        Me.ColPdCode.Width = 147
+        '
+        'GCSale
+        '
+        Me.GCSale.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.GCSale.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
+        Me.GCSale.Location = New System.Drawing.Point(0, 287)
+        Me.GCSale.MainView = Me.DGVBind
+        Me.GCSale.Name = "GCSale"
+        Me.GCSale.RepositoryItems.AddRange(New DevExpress.XtraEditors.Repository.RepositoryItem() {Me.rptDel, Me.rptCheckPrice, Me.rptUnit, Me.rptProductName, Me.rptPdCode, Me.rptChx})
+        Me.GCSale.Size = New System.Drawing.Size(1191, 219)
+        Me.GCSale.TabIndex = 737
+        Me.GCSale.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.DGVBind})
+        '
+        'DGVBind
+        '
+        Me.DGVBind.Appearance.ColumnFilterButton.BackColor = System.Drawing.Color.FromArgb(CType(CType(57, Byte), Integer), CType(CType(87, Byte), Integer), CType(CType(138, Byte), Integer))
+        Me.DGVBind.Appearance.ColumnFilterButton.BorderColor = System.Drawing.Color.FromArgb(CType(CType(57, Byte), Integer), CType(CType(87, Byte), Integer), CType(CType(138, Byte), Integer))
+        Me.DGVBind.Appearance.ColumnFilterButton.ForeColor = System.Drawing.Color.FromArgb(CType(CType(239, Byte), Integer), CType(CType(235, Byte), Integer), CType(CType(220, Byte), Integer))
+        Me.DGVBind.Appearance.ColumnFilterButton.Options.UseBackColor = True
+        Me.DGVBind.Appearance.ColumnFilterButton.Options.UseBorderColor = True
+        Me.DGVBind.Appearance.ColumnFilterButton.Options.UseForeColor = True
+        Me.DGVBind.Appearance.ColumnFilterButtonActive.BackColor = System.Drawing.Color.FromArgb(CType(CType(81, Byte), Integer), CType(CType(109, Byte), Integer), CType(CType(158, Byte), Integer))
+        Me.DGVBind.Appearance.ColumnFilterButtonActive.BorderColor = System.Drawing.Color.FromArgb(CType(CType(81, Byte), Integer), CType(CType(109, Byte), Integer), CType(CType(158, Byte), Integer))
+        Me.DGVBind.Appearance.ColumnFilterButtonActive.ForeColor = System.Drawing.Color.FromArgb(CType(CType(239, Byte), Integer), CType(CType(235, Byte), Integer), CType(CType(220, Byte), Integer))
+        Me.DGVBind.Appearance.ColumnFilterButtonActive.Options.UseBackColor = True
+        Me.DGVBind.Appearance.ColumnFilterButtonActive.Options.UseBorderColor = True
+        Me.DGVBind.Appearance.ColumnFilterButtonActive.Options.UseForeColor = True
+        Me.DGVBind.Appearance.Empty.BackColor = System.Drawing.Color.FromArgb(CType(CType(239, Byte), Integer), CType(CType(235, Byte), Integer), CType(CType(220, Byte), Integer))
+        Me.DGVBind.Appearance.Empty.BackColor2 = System.Drawing.Color.White
+        Me.DGVBind.Appearance.Empty.Options.UseBackColor = True
+        Me.DGVBind.Appearance.EvenRow.BackColor = System.Drawing.Color.FromArgb(CType(CType(229, Byte), Integer), CType(CType(234, Byte), Integer), CType(CType(237, Byte), Integer))
+        Me.DGVBind.Appearance.EvenRow.ForeColor = System.Drawing.Color.Black
+        Me.DGVBind.Appearance.EvenRow.Options.UseBackColor = True
+        Me.DGVBind.Appearance.EvenRow.Options.UseForeColor = True
+        Me.DGVBind.Appearance.FilterCloseButton.BackColor = System.Drawing.Color.FromArgb(CType(CType(57, Byte), Integer), CType(CType(87, Byte), Integer), CType(CType(138, Byte), Integer))
+        Me.DGVBind.Appearance.FilterCloseButton.BorderColor = System.Drawing.Color.FromArgb(CType(CType(57, Byte), Integer), CType(CType(87, Byte), Integer), CType(CType(138, Byte), Integer))
+        Me.DGVBind.Appearance.FilterCloseButton.ForeColor = System.Drawing.Color.FromArgb(CType(CType(239, Byte), Integer), CType(CType(235, Byte), Integer), CType(CType(220, Byte), Integer))
+        Me.DGVBind.Appearance.FilterCloseButton.Options.UseBackColor = True
+        Me.DGVBind.Appearance.FilterCloseButton.Options.UseBorderColor = True
+        Me.DGVBind.Appearance.FilterCloseButton.Options.UseForeColor = True
+        Me.DGVBind.Appearance.FilterPanel.BackColor = System.Drawing.Color.FromArgb(CType(CType(239, Byte), Integer), CType(CType(235, Byte), Integer), CType(CType(220, Byte), Integer))
+        Me.DGVBind.Appearance.FilterPanel.BackColor2 = System.Drawing.Color.White
+        Me.DGVBind.Appearance.FilterPanel.ForeColor = System.Drawing.Color.FromArgb(CType(CType(57, Byte), Integer), CType(CType(87, Byte), Integer), CType(CType(138, Byte), Integer))
+        Me.DGVBind.Appearance.FilterPanel.Options.UseBackColor = True
+        Me.DGVBind.Appearance.FilterPanel.Options.UseForeColor = True
+        Me.DGVBind.Appearance.FixedLine.BackColor = System.Drawing.Color.FromArgb(CType(CType(167, Byte), Integer), CType(CType(178, Byte), Integer), CType(CType(185, Byte), Integer))
+        Me.DGVBind.Appearance.FixedLine.Options.UseBackColor = True
+        Me.DGVBind.Appearance.FocusedCell.BackColor = System.Drawing.Color.White
+        Me.DGVBind.Appearance.FocusedCell.ForeColor = System.Drawing.Color.Black
+        Me.DGVBind.Appearance.FocusedCell.Options.UseBackColor = True
+        Me.DGVBind.Appearance.FocusedCell.Options.UseForeColor = True
+        Me.DGVBind.Appearance.FocusedRow.BackColor = System.Drawing.Color.FromArgb(CType(CType(57, Byte), Integer), CType(CType(87, Byte), Integer), CType(CType(138, Byte), Integer))
+        Me.DGVBind.Appearance.FocusedRow.ForeColor = System.Drawing.Color.White
+        Me.DGVBind.Appearance.FocusedRow.Options.UseBackColor = True
+        Me.DGVBind.Appearance.FocusedRow.Options.UseForeColor = True
+        Me.DGVBind.Appearance.FooterPanel.BackColor = System.Drawing.Color.FromArgb(CType(CType(57, Byte), Integer), CType(CType(87, Byte), Integer), CType(CType(138, Byte), Integer))
+        Me.DGVBind.Appearance.FooterPanel.BorderColor = System.Drawing.Color.FromArgb(CType(CType(57, Byte), Integer), CType(CType(87, Byte), Integer), CType(CType(138, Byte), Integer))
+        Me.DGVBind.Appearance.FooterPanel.ForeColor = System.Drawing.Color.FromArgb(CType(CType(239, Byte), Integer), CType(CType(235, Byte), Integer), CType(CType(220, Byte), Integer))
+        Me.DGVBind.Appearance.FooterPanel.Options.UseBackColor = True
+        Me.DGVBind.Appearance.FooterPanel.Options.UseBorderColor = True
+        Me.DGVBind.Appearance.FooterPanel.Options.UseForeColor = True
+        Me.DGVBind.Appearance.GroupButton.BackColor = System.Drawing.Color.FromArgb(CType(CType(57, Byte), Integer), CType(CType(87, Byte), Integer), CType(CType(138, Byte), Integer))
+        Me.DGVBind.Appearance.GroupButton.BorderColor = System.Drawing.Color.FromArgb(CType(CType(57, Byte), Integer), CType(CType(87, Byte), Integer), CType(CType(138, Byte), Integer))
+        Me.DGVBind.Appearance.GroupButton.ForeColor = System.Drawing.Color.FromArgb(CType(CType(239, Byte), Integer), CType(CType(235, Byte), Integer), CType(CType(220, Byte), Integer))
+        Me.DGVBind.Appearance.GroupButton.Options.UseBackColor = True
+        Me.DGVBind.Appearance.GroupButton.Options.UseBorderColor = True
+        Me.DGVBind.Appearance.GroupButton.Options.UseForeColor = True
+        Me.DGVBind.Appearance.GroupFooter.BackColor = System.Drawing.Color.FromArgb(CType(CType(81, Byte), Integer), CType(CType(109, Byte), Integer), CType(CType(158, Byte), Integer))
+        Me.DGVBind.Appearance.GroupFooter.BorderColor = System.Drawing.Color.FromArgb(CType(CType(81, Byte), Integer), CType(CType(109, Byte), Integer), CType(CType(158, Byte), Integer))
+        Me.DGVBind.Appearance.GroupFooter.ForeColor = System.Drawing.Color.FromArgb(CType(CType(239, Byte), Integer), CType(CType(235, Byte), Integer), CType(CType(220, Byte), Integer))
+        Me.DGVBind.Appearance.GroupFooter.Options.UseBackColor = True
+        Me.DGVBind.Appearance.GroupFooter.Options.UseBorderColor = True
+        Me.DGVBind.Appearance.GroupFooter.Options.UseForeColor = True
+        Me.DGVBind.Appearance.GroupPanel.BackColor = System.Drawing.Color.FromArgb(CType(CType(239, Byte), Integer), CType(CType(235, Byte), Integer), CType(CType(220, Byte), Integer))
+        Me.DGVBind.Appearance.GroupPanel.BackColor2 = System.Drawing.Color.White
+        Me.DGVBind.Appearance.GroupPanel.ForeColor = System.Drawing.Color.Black
+        Me.DGVBind.Appearance.GroupPanel.Options.UseBackColor = True
+        Me.DGVBind.Appearance.GroupPanel.Options.UseForeColor = True
+        Me.DGVBind.Appearance.GroupRow.BackColor = System.Drawing.Color.FromArgb(CType(CType(81, Byte), Integer), CType(CType(109, Byte), Integer), CType(CType(158, Byte), Integer))
+        Me.DGVBind.Appearance.GroupRow.BorderColor = System.Drawing.Color.FromArgb(CType(CType(81, Byte), Integer), CType(CType(109, Byte), Integer), CType(CType(158, Byte), Integer))
+        Me.DGVBind.Appearance.GroupRow.ForeColor = System.Drawing.Color.FromArgb(CType(CType(239, Byte), Integer), CType(CType(235, Byte), Integer), CType(CType(220, Byte), Integer))
+        Me.DGVBind.Appearance.GroupRow.Options.UseBackColor = True
+        Me.DGVBind.Appearance.GroupRow.Options.UseBorderColor = True
+        Me.DGVBind.Appearance.GroupRow.Options.UseForeColor = True
+        Me.DGVBind.Appearance.HeaderPanel.BackColor = System.Drawing.Color.FromArgb(CType(CType(81, Byte), Integer), CType(CType(109, Byte), Integer), CType(CType(158, Byte), Integer))
+        Me.DGVBind.Appearance.HeaderPanel.BorderColor = System.Drawing.Color.FromArgb(CType(CType(81, Byte), Integer), CType(CType(109, Byte), Integer), CType(CType(158, Byte), Integer))
+        Me.DGVBind.Appearance.HeaderPanel.ForeColor = System.Drawing.Color.FromArgb(CType(CType(239, Byte), Integer), CType(CType(235, Byte), Integer), CType(CType(220, Byte), Integer))
+        Me.DGVBind.Appearance.HeaderPanel.Options.UseBackColor = True
+        Me.DGVBind.Appearance.HeaderPanel.Options.UseBorderColor = True
+        Me.DGVBind.Appearance.HeaderPanel.Options.UseForeColor = True
+        Me.DGVBind.Appearance.HideSelectionRow.BackColor = System.Drawing.Color.FromArgb(CType(CType(128, Byte), Integer), CType(CType(153, Byte), Integer), CType(CType(195, Byte), Integer))
+        Me.DGVBind.Appearance.HideSelectionRow.ForeColor = System.Drawing.Color.FromArgb(CType(CType(239, Byte), Integer), CType(CType(235, Byte), Integer), CType(CType(220, Byte), Integer))
+        Me.DGVBind.Appearance.HideSelectionRow.Options.UseBackColor = True
+        Me.DGVBind.Appearance.HideSelectionRow.Options.UseForeColor = True
+        Me.DGVBind.Appearance.HorzLine.BackColor = System.Drawing.Color.FromArgb(CType(CType(167, Byte), Integer), CType(CType(178, Byte), Integer), CType(CType(185, Byte), Integer))
+        Me.DGVBind.Appearance.HorzLine.Options.UseBackColor = True
+        Me.DGVBind.Appearance.OddRow.BackColor = System.Drawing.Color.FromArgb(CType(CType(249, Byte), Integer), CType(CType(251, Byte), Integer), CType(CType(252, Byte), Integer))
+        Me.DGVBind.Appearance.OddRow.ForeColor = System.Drawing.Color.Black
+        Me.DGVBind.Appearance.OddRow.Options.UseBackColor = True
+        Me.DGVBind.Appearance.OddRow.Options.UseForeColor = True
+        Me.DGVBind.Appearance.Preview.BackColor = System.Drawing.Color.FromArgb(CType(CType(251, Byte), Integer), CType(CType(250, Byte), Integer), CType(CType(248, Byte), Integer))
+        Me.DGVBind.Appearance.Preview.Font = New System.Drawing.Font("Verdana", 7.5!)
+        Me.DGVBind.Appearance.Preview.ForeColor = System.Drawing.Color.FromArgb(CType(CType(57, Byte), Integer), CType(CType(87, Byte), Integer), CType(CType(138, Byte), Integer))
+        Me.DGVBind.Appearance.Preview.Options.UseBackColor = True
+        Me.DGVBind.Appearance.Preview.Options.UseFont = True
+        Me.DGVBind.Appearance.Preview.Options.UseForeColor = True
+        Me.DGVBind.Appearance.Row.BackColor = System.Drawing.Color.FromArgb(CType(CType(249, Byte), Integer), CType(CType(251, Byte), Integer), CType(CType(252, Byte), Integer))
+        Me.DGVBind.Appearance.Row.ForeColor = System.Drawing.Color.Black
+        Me.DGVBind.Appearance.Row.Options.UseBackColor = True
+        Me.DGVBind.Appearance.Row.Options.UseForeColor = True
+        Me.DGVBind.Appearance.RowSeparator.BackColor = System.Drawing.Color.FromArgb(CType(CType(239, Byte), Integer), CType(CType(235, Byte), Integer), CType(CType(220, Byte), Integer))
+        Me.DGVBind.Appearance.RowSeparator.BackColor2 = System.Drawing.Color.White
+        Me.DGVBind.Appearance.RowSeparator.Options.UseBackColor = True
+        Me.DGVBind.Appearance.SelectedRow.BackColor = System.Drawing.Color.FromArgb(CType(CType(107, Byte), Integer), CType(CType(133, Byte), Integer), CType(CType(179, Byte), Integer))
+        Me.DGVBind.Appearance.SelectedRow.ForeColor = System.Drawing.Color.FromArgb(CType(CType(239, Byte), Integer), CType(CType(235, Byte), Integer), CType(CType(220, Byte), Integer))
+        Me.DGVBind.Appearance.SelectedRow.Options.UseBackColor = True
+        Me.DGVBind.Appearance.SelectedRow.Options.UseForeColor = True
+        Me.DGVBind.Appearance.TopNewRow.BackColor = System.Drawing.Color.White
+        Me.DGVBind.Appearance.TopNewRow.Options.UseBackColor = True
+        Me.DGVBind.Appearance.VertLine.BackColor = System.Drawing.Color.FromArgb(CType(CType(167, Byte), Integer), CType(CType(178, Byte), Integer), CType(CType(185, Byte), Integer))
+        Me.DGVBind.Appearance.VertLine.Options.UseBackColor = True
+        Me.DGVBind.ColumnPanelRowHeight = 35
+        Me.DGVBind.Columns.AddRange(New DevExpress.XtraGrid.Columns.GridColumn() {Me.colidSubType, Me.ColNum, Me.ColPdCode, Me.ColProductName, Me.ColAmtSale, Me.ColidUnit, Me.ColPriceNormal, Me.ColPercDiscount, Me.ColBathDiscount, Me.ColPriceSale, Me.ColChxProductName, Me.ColLastPrice, Me.ColTotalDt, Me.ColDel, Me.Col_idSaleDt, Me.Col_CompRec, Me.colidInvMain, Me.colidInvGroup, Me.colNo, Me.colstEdit, Me.ColDtType, Me.colUnitName, Me.stCutStock, Me.colpWeight, Me.ColidUnitW})
+        Me.DGVBind.GridControl = Me.GCSale
+        Me.DGVBind.IndicatorWidth = 35
+        Me.DGVBind.Name = "DGVBind"
+        Me.DGVBind.OptionsBehavior.EditorShowMode = DevExpress.Utils.EditorShowMode.MouseDown
+        Me.DGVBind.OptionsCustomization.AllowSort = False
+        Me.DGVBind.OptionsSelection.EnableAppearanceFocusedCell = False
+        Me.DGVBind.OptionsSelection.EnableAppearanceFocusedRow = False
+        Me.DGVBind.OptionsView.EnableAppearanceEvenRow = True
+        Me.DGVBind.OptionsView.EnableAppearanceOddRow = True
+        Me.DGVBind.OptionsView.NewItemRowPosition = DevExpress.XtraGrid.Views.Grid.NewItemRowPosition.Bottom
+        Me.DGVBind.OptionsView.RowAutoHeight = True
+        Me.DGVBind.OptionsView.ShowFilterPanelMode = DevExpress.XtraGrid.Views.Base.ShowFilterPanelMode.Never
+        Me.DGVBind.OptionsView.ShowGroupPanel = False
+        Me.DGVBind.OptionsView.ShowIndicator = False
+        Me.DGVBind.PaintStyleName = "MixedXP"
+        '
+        'colidSubType
+        '
+        Me.colidSubType.AppearanceCell.Font = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.colidSubType.AppearanceCell.Options.UseFont = True
+        Me.colidSubType.AppearanceHeader.Options.UseFont = True
+        Me.colidSubType.Caption = "idSubType"
+        Me.colidSubType.FieldName = "idSubType"
+        Me.colidSubType.Name = "colidSubType"
+        '
+        'ColNum
+        '
+        Me.ColNum.AppearanceCell.BackColor = System.Drawing.Color.Gainsboro
+        Me.ColNum.AppearanceCell.Font = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.ColNum.AppearanceCell.Options.UseBackColor = True
+        Me.ColNum.AppearanceCell.Options.UseFont = True
+        Me.ColNum.AppearanceCell.Options.UseTextOptions = True
+        Me.ColNum.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
+        Me.ColNum.AppearanceHeader.Options.UseFont = True
+        Me.ColNum.AppearanceHeader.Options.UseTextOptions = True
+        Me.ColNum.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
+        Me.ColNum.AppearanceHeader.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap
+        Me.ColNum.Caption = "ลำดับ"
+        Me.ColNum.MaxWidth = 42
+        Me.ColNum.MinWidth = 42
+        Me.ColNum.Name = "ColNum"
+        Me.ColNum.OptionsColumn.AllowEdit = False
+        Me.ColNum.OptionsColumn.ReadOnly = True
+        Me.ColNum.OptionsColumn.TabStop = False
+        Me.ColNum.Visible = True
+        Me.ColNum.VisibleIndex = 0
+        Me.ColNum.Width = 42
+        '
+        'Img1
+        '
+        Me.Img1.ImageStream = CType(resources.GetObject("Img1.ImageStream"), System.Windows.Forms.ImageListStreamer)
+        Me.Img1.TransparentColor = System.Drawing.Color.Transparent
+        Me.Img1.Images.SetKeyName(0, "JPG_icon.jpg")
+        '
+        'frmSlSaleBack
+        '
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.ClientSize = New System.Drawing.Size(1191, 563)
+        Me.Controls.Add(Me.GCSale)
+        Me.Controls.Add(Me.PanelControl3)
+        Me.Controls.Add(Me.StatusStrip2)
+        Me.Controls.Add(Me.PanelControl1)
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
+        Me.Name = "frmSlSaleBack"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
+        Me.Text = "ทำรายการขายสินค้าย้อนหลัง"
+        CType(Me.rptCheckPrice, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.rptDel, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.rptChx, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.rptProductName, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.rptUnit, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PanelControl3, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.PanelControl3.ResumeLayout(False)
+        Me.Panel1.ResumeLayout(False)
+        Me.StatusStrip2.ResumeLayout(False)
+        Me.StatusStrip2.PerformLayout()
+        CType(Me.FileSystemWatcher1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PanelControl1, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.PanelControl1.ResumeLayout(False)
+        Me.PanelControl1.PerformLayout()
+        Me.GroupBox1.ResumeLayout(False)
+        Me.GroupBox1.PerformLayout()
+        Me.GBDiscount.ResumeLayout(False)
+        Me.GBDiscount.PerformLayout()
+        Me.Panel4.ResumeLayout(False)
+        CType(Me.gcNote, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.gvNote, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.GroupBox3.ResumeLayout(False)
+        Me.GroupBox3.PerformLayout()
+        Me.GroupBox4.ResumeLayout(False)
+        Me.GroupBox4.PerformLayout()
+        Me.GroupBox6.ResumeLayout(False)
+        Me.GroupBox6.PerformLayout()
+        Me.GroupBox9.ResumeLayout(False)
+        Me.GroupBox9.PerformLayout()
+        CType(Me.rptPdCode, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.GCSale, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.DGVBind, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.ResumeLayout(False)
+        Me.PerformLayout()
+
+    End Sub
+
+    Friend WithEvents ColLastPrice As DevExpress.XtraGrid.Columns.GridColumn
+    Friend WithEvents rptCheckPrice As DevExpress.XtraEditors.Repository.RepositoryItemButtonEdit
+    Friend WithEvents ColTotalDt As DevExpress.XtraGrid.Columns.GridColumn
+    Friend WithEvents ColDel As DevExpress.XtraGrid.Columns.GridColumn
+    Friend WithEvents rptDel As DevExpress.XtraEditors.Repository.RepositoryItemButtonEdit
+    Friend WithEvents Col_idSaleDt As DevExpress.XtraGrid.Columns.GridColumn
+    Friend WithEvents Col_CompRec As DevExpress.XtraGrid.Columns.GridColumn
+    Friend WithEvents colidInvMain As DevExpress.XtraGrid.Columns.GridColumn
+    Friend WithEvents colidInvGroup As DevExpress.XtraGrid.Columns.GridColumn
+    Friend WithEvents colNo As DevExpress.XtraGrid.Columns.GridColumn
+    Friend WithEvents colstEdit As DevExpress.XtraGrid.Columns.GridColumn
+    Friend WithEvents rptChx As DevExpress.XtraEditors.Repository.RepositoryItemButtonEdit
+    Friend WithEvents ColProductName As DevExpress.XtraGrid.Columns.GridColumn
+    Friend WithEvents rptProductName As DevExpress.XtraEditors.Repository.RepositoryItemHyperLinkEdit
+    Friend WithEvents ColAmtSale As DevExpress.XtraGrid.Columns.GridColumn
+    Friend WithEvents rptUnit As DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit
+    Friend WithEvents ColPriceNormal As DevExpress.XtraGrid.Columns.GridColumn
+    Friend WithEvents ColPercDiscount As DevExpress.XtraGrid.Columns.GridColumn
+    Friend WithEvents ColBathDiscount As DevExpress.XtraGrid.Columns.GridColumn
+    Friend WithEvents ColPriceSale As DevExpress.XtraGrid.Columns.GridColumn
+    Friend WithEvents ColidUnit As DevExpress.XtraGrid.Columns.GridColumn
+    Friend WithEvents ColChxProductName As DevExpress.XtraGrid.Columns.GridColumn
+    Friend WithEvents ColDtType As DevExpress.XtraGrid.Columns.GridColumn
+    Friend WithEvents Label2 As Label
+    Friend WithEvents Label9 As Label
+    Friend WithEvents txtDiscBath As TextBox
+    Friend WithEvents lblPerc As TextBox
+    Friend WithEvents Label4 As Label
+    Friend WithEvents txtAmtPerc As TextBox
+    Friend WithEvents stLbl_DateTs As ToolStripStatusLabel
+    Friend WithEvents stLbl_PsTs As ToolStripStatusLabel
+    Friend WithEvents PanelControl3 As DevExpress.XtraEditors.PanelControl
+    Friend WithEvents Panel1 As Panel
+    Friend WithEvents btnSave As DevExpress.XtraEditors.SimpleButton
+    Friend WithEvents StatusStrip2 As StatusStrip
+    Friend WithEvents rdbBathDisc As RadioButton
+    Friend WithEvents colUnitName As DevExpress.XtraGrid.Columns.GridColumn
+    Friend WithEvents stCutStock As DevExpress.XtraGrid.Columns.GridColumn
+    Friend WithEvents colpWeight As DevExpress.XtraGrid.Columns.GridColumn
+    Friend WithEvents txtTotalBFDisc As TextBox
+    Friend WithEvents ColidUnitW As DevExpress.XtraGrid.Columns.GridColumn
+    Friend WithEvents ImageList1 As ImageList
+    Friend WithEvents FileSystemWatcher1 As IO.FileSystemWatcher
+    Friend WithEvents PanelControl1 As DevExpress.XtraEditors.PanelControl
+    Friend WithEvents GroupBox1 As GroupBox
+    Friend WithEvents lblPsOrder As Label
+    Friend WithEvents Label19 As Label
+    Friend WithEvents btnPsOrder As DevExpress.XtraEditors.SimpleButton
+    Friend WithEvents GBDiscount As GroupBox
+    Friend WithEvents rdbPerDisc As RadioButton
+    Friend WithEvents Panel4 As Panel
+    Friend WithEvents gcNote As DevExpress.XtraGrid.GridControl
+    Friend WithEvents gvNote As DevExpress.XtraGrid.Views.Grid.GridView
+    Friend WithEvents colNote As DevExpress.XtraGrid.Columns.GridColumn
+    Friend WithEvents GroupBox3 As GroupBox
+    Friend WithEvents btnTspComp As DevExpress.XtraEditors.SimpleButton
+    Friend WithEvents btnAddressS As DevExpress.XtraEditors.SimpleButton
+    Friend WithEvents cmbBillSaleCont As ComboBox
+    Friend WithEvents btnCustomer As DevExpress.XtraEditors.SimpleButton
+    Friend WithEvents lblTspComp As Label
+    Friend WithEvents lblCusNote As TextBox
+    Friend WithEvents Label56 As Label
+    Friend WithEvents Label54 As Label
+    Friend WithEvents cmbTypePayTrp As ComboBox
+    Friend WithEvents lblAddr As Label
+    Friend WithEvents Label14 As Label
+    Friend WithEvents txtBillSaleCont As TextBox
+    Friend WithEvents Label16 As Label
+    Friend WithEvents Label12 As Label
+    Friend WithEvents CmbTs As ComboBox
+    Friend WithEvents lblTS As Label
+    Friend WithEvents lblCusRec As Label
+    Friend WithEvents Label5 As Label
+    Friend WithEvents Label40 As Label
+    Friend WithEvents lblPsCus As Label
+    Friend WithEvents Label6 As Label
+    Friend WithEvents GroupBox4 As GroupBox
+    Friend WithEvents rdbBill As RadioButton
+    Friend WithEvents rdbWhole As RadioButton
+    Friend WithEvents rdbRetail As RadioButton
+    Friend WithEvents Label8 As Label
+    Friend WithEvents txtTotalNet As TextBox
+    Friend WithEvents GroupBox6 As GroupBox
+    Friend WithEvents Label11 As Label
+    Friend WithEvents btnRefDoc As DevExpress.XtraEditors.SimpleButton
+    Friend WithEvents btnSale As DevExpress.XtraEditors.SimpleButton
+    Friend WithEvents lblRefAcc As Label
+    Friend WithEvents cmbGroupComp As ComboBox
+    Friend WithEvents Label38 As Label
+    Friend WithEvents Label24 As Label
+    Friend WithEvents lblDocCode As Label
+    Friend WithEvents Label1 As Label
+    Friend WithEvents dtpSale As DateTimePicker
+    Friend WithEvents cmbDRCode As ComboBox
+    Friend WithEvents txtDocRef As TextBox
+    Friend WithEvents Label10 As Label
+    Friend WithEvents lblPsSale As Label
+    Friend WithEvents Label15 As Label
+    Friend WithEvents GroupBox9 As GroupBox
+    Friend WithEvents Label18 As Label
+    Friend WithEvents txtPrePay As TextBox
+    Friend WithEvents rdbRight As RadioButton
+    Friend WithEvents Label13 As Label
+    Friend WithEvents txtPercP As TextBox
+    Friend WithEvents rdbNoRight As RadioButton
+    Friend WithEvents Label7 As Label
+    Friend WithEvents cmbTp As ComboBox
+    Friend WithEvents Label21 As Label
+    Friend WithEvents dtpPay As DateTimePicker
+    Friend WithEvents Label3 As Label
+    Friend WithEvents GCSale As DevExpress.XtraGrid.GridControl
+    Friend WithEvents DGVBind As DevExpress.XtraGrid.Views.Grid.GridView
+    Friend WithEvents colidSubType As DevExpress.XtraGrid.Columns.GridColumn
+    Friend WithEvents ColNum As DevExpress.XtraGrid.Columns.GridColumn
+    Friend WithEvents ColPdCode As DevExpress.XtraGrid.Columns.GridColumn
+    Friend WithEvents rptPdCode As DevExpress.XtraEditors.Repository.RepositoryItemTextEdit
+    Friend WithEvents ContextMenuStrip1 As ContextMenuStrip
+    Friend WithEvents Img1 As ImageList
+End Class

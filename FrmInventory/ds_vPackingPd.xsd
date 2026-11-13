@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ds_vPackingPd" targetNamespace="http://tempuri.org/ds_vPackingPd.xsd" xmlns:mstns="http://tempuri.org/ds_vPackingPd.xsd" xmlns="http://tempuri.org/ds_vPackingPd.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="GR_GroupConnectionString1" IsAppSettingsProperty="True" Modifier="Assembly" Name="GR_GroupConnectionString1 (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.SAM.My.MySettings.GlobalReference.Default.GR_GroupConnectionString1" Provider="System.Data.SqlClient">
+          </Connection>
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="vPackingPdTableAdapter" GeneratorDataComponentClassName="vPackingPdTableAdapter" Name="vPackingPd" UserDataComponentName="vPackingPdTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="GR_GroupConnectionString1 (MySettings)" DbObjectName="GR_Group.dbo.vPackingPd" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="False" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="True" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="True">
+                    <CommandText>SELECT        dbo.vPackingPd.*
+FROM            dbo.vPackingPd</CommandText>
+                    <Parameters>
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="idPk" DataSetColumn="idPk" />
+              <Mapping SourceColumn="Barcode" DataSetColumn="Barcode" />
+              <Mapping SourceColumn="idPdT" DataSetColumn="idPdT" />
+              <Mapping SourceColumn="idPkUnit" DataSetColumn="idPkUnit" />
+              <Mapping SourceColumn="Detail" DataSetColumn="Detail" />
+              <Mapping SourceColumn="Amount" DataSetColumn="Amount" />
+              <Mapping SourceColumn="Weight" DataSetColumn="Weight" />
+              <Mapping SourceColumn="idUnitW" DataSetColumn="idUnitW" />
+              <Mapping SourceColumn="PkUnitName" DataSetColumn="PkUnitName" />
+              <Mapping SourceColumn="UnitW" DataSetColumn="UnitW" />
+              <Mapping SourceColumn="PriceRetail" DataSetColumn="PriceRetail" />
+              <Mapping SourceColumn="PriceBill" DataSetColumn="PriceBill" />
+              <Mapping SourceColumn="PriceWholeSale" DataSetColumn="PriceWholeSale" />
+              <Mapping SourceColumn="PdTradeName" DataSetColumn="PdTradeName" />
+              <Mapping SourceColumn="PlantTypeName" DataSetColumn="PlantTypeName" />
+              <Mapping SourceColumn="Trademark" DataSetColumn="Trademark" />
+              <Mapping SourceColumn="PdPkName" DataSetColumn="PdPkName" />
+              <Mapping SourceColumn="PlantName" DataSetColumn="PlantName" />
+            </Mappings>
+            <Sources>
+            </Sources>
+          </TableAdapter>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ds_vPackingPd" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="ds_vPackingPd" msprop:Generator_DataSetName="ds_vPackingPd">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="vPackingPd" msprop:Generator_UserTableName="vPackingPd" msprop:Generator_RowDeletedName="vPackingPdRowDeleted" msprop:Generator_RowChangedName="vPackingPdRowChanged" msprop:Generator_RowClassName="vPackingPdRow" msprop:Generator_RowChangingName="vPackingPdRowChanging" msprop:Generator_RowEvArgName="vPackingPdRowChangeEvent" msprop:Generator_RowEvHandlerName="vPackingPdRowChangeEventHandler" msprop:Generator_TableClassName="vPackingPdDataTable" msprop:Generator_TableVarName="tablevPackingPd" msprop:Generator_RowDeletingName="vPackingPdRowDeleting" msprop:Generator_TablePropName="vPackingPd">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="idPk" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="idPk" msprop:Generator_ColumnPropNameInRow="idPk" msprop:Generator_ColumnVarNameInTable="columnidPk" msprop:Generator_ColumnPropNameInTable="idPkColumn" type="xs:int" />
+              <xs:element name="Barcode" msprop:Generator_UserColumnName="Barcode" msprop:Generator_ColumnPropNameInRow="Barcode" msprop:Generator_ColumnVarNameInTable="columnBarcode" msprop:Generator_ColumnPropNameInTable="BarcodeColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="idPdT" msprop:Generator_UserColumnName="idPdT" msprop:Generator_ColumnPropNameInRow="idPdT" msprop:Generator_ColumnVarNameInTable="columnidPdT" msprop:Generator_ColumnPropNameInTable="idPdTColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="idPkUnit" msprop:Generator_UserColumnName="idPkUnit" msprop:Generator_ColumnPropNameInRow="idPkUnit" msprop:Generator_ColumnVarNameInTable="columnidPkUnit" msprop:Generator_ColumnPropNameInTable="idPkUnitColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Detail" msprop:Generator_UserColumnName="Detail" msprop:Generator_ColumnPropNameInRow="Detail" msprop:Generator_ColumnVarNameInTable="columnDetail" msprop:Generator_ColumnPropNameInTable="DetailColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Amount" msprop:Generator_UserColumnName="Amount" msprop:Generator_ColumnPropNameInRow="Amount" msprop:Generator_ColumnVarNameInTable="columnAmount" msprop:Generator_ColumnPropNameInTable="AmountColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Weight" msprop:Generator_UserColumnName="Weight" msprop:Generator_ColumnPropNameInRow="Weight" msprop:Generator_ColumnVarNameInTable="columnWeight" msprop:Generator_ColumnPropNameInTable="WeightColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="idUnitW" msprop:Generator_UserColumnName="idUnitW" msprop:Generator_ColumnPropNameInRow="idUnitW" msprop:Generator_ColumnVarNameInTable="columnidUnitW" msprop:Generator_ColumnPropNameInTable="idUnitWColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="PkUnitName" msprop:Generator_UserColumnName="PkUnitName" msprop:Generator_ColumnPropNameInRow="PkUnitName" msprop:Generator_ColumnVarNameInTable="columnPkUnitName" msprop:Generator_ColumnPropNameInTable="PkUnitNameColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="UnitW" msprop:Generator_UserColumnName="UnitW" msprop:Generator_ColumnPropNameInRow="UnitW" msprop:Generator_ColumnVarNameInTable="columnUnitW" msprop:Generator_ColumnPropNameInTable="UnitWColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PriceRetail" msprop:Generator_UserColumnName="PriceRetail" msprop:Generator_ColumnPropNameInRow="PriceRetail" msprop:Generator_ColumnVarNameInTable="columnPriceRetail" msprop:Generator_ColumnPropNameInTable="PriceRetailColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PriceBill" msprop:Generator_UserColumnName="PriceBill" msprop:Generator_ColumnPropNameInRow="PriceBill" msprop:Generator_ColumnVarNameInTable="columnPriceBill" msprop:Generator_ColumnPropNameInTable="PriceBillColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PriceWholeSale" msprop:Generator_UserColumnName="PriceWholeSale" msprop:Generator_ColumnPropNameInRow="PriceWholeSale" msprop:Generator_ColumnVarNameInTable="columnPriceWholeSale" msprop:Generator_ColumnPropNameInTable="PriceWholeSaleColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PdTradeName" msprop:Generator_UserColumnName="PdTradeName" msprop:Generator_ColumnPropNameInRow="PdTradeName" msprop:Generator_ColumnVarNameInTable="columnPdTradeName" msprop:Generator_ColumnPropNameInTable="PdTradeNameColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PlantTypeName" msprop:Generator_UserColumnName="PlantTypeName" msprop:Generator_ColumnPropNameInRow="PlantTypeName" msprop:Generator_ColumnVarNameInTable="columnPlantTypeName" msprop:Generator_ColumnPropNameInTable="PlantTypeNameColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Trademark" msprop:Generator_UserColumnName="Trademark" msprop:Generator_ColumnPropNameInRow="Trademark" msprop:Generator_ColumnVarNameInTable="columnTrademark" msprop:Generator_ColumnPropNameInTable="TrademarkColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PdPkName" msdata:ReadOnly="true" msprop:Generator_UserColumnName="PdPkName" msprop:Generator_ColumnPropNameInRow="PdPkName" msprop:Generator_ColumnVarNameInTable="columnPdPkName" msprop:Generator_ColumnPropNameInTable="PdPkNameColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="337" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PlantName" msprop:Generator_UserColumnName="PlantName" msprop:Generator_ColumnPropNameInRow="PlantName" msprop:Generator_ColumnVarNameInTable="columnPlantName" msprop:Generator_ColumnPropNameInTable="PlantNameColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="dt_vPackingPd" msprop:Generator_UserTableName="dt_vPackingPd" msprop:Generator_RowDeletedName="dt_vPackingPdRowDeleted" msprop:Generator_RowChangedName="dt_vPackingPdRowChanged" msprop:Generator_RowClassName="dt_vPackingPdRow" msprop:Generator_RowChangingName="dt_vPackingPdRowChanging" msprop:Generator_RowEvArgName="dt_vPackingPdRowChangeEvent" msprop:Generator_RowEvHandlerName="dt_vPackingPdRowChangeEventHandler" msprop:Generator_TableClassName="dt_vPackingPdDataTable" msprop:Generator_TableVarName="tabledt_vPackingPd" msprop:Generator_RowDeletingName="dt_vPackingPdRowDeleting" msprop:Generator_TablePropName="dt_vPackingPd">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="PdTradeName" msprop:Generator_UserColumnName="PdTradeName" msprop:Generator_ColumnPropNameInRow="PdTradeName" msprop:Generator_ColumnVarNameInTable="columnPdTradeName" msprop:Generator_ColumnPropNameInTable="PdTradeNameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Trademark" msprop:Generator_UserColumnName="Trademark" msprop:Generator_ColumnPropNameInRow="Trademark" msprop:Generator_ColumnVarNameInTable="columnTrademark" msprop:Generator_ColumnPropNameInTable="TrademarkColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="PkUnitName" msprop:Generator_UserColumnName="PkUnitName" msprop:Generator_ColumnPropNameInRow="PkUnitName" msprop:Generator_ColumnVarNameInTable="columnPkUnitName" msprop:Generator_ColumnPropNameInTable="PkUnitNameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Weight" msprop:Generator_UserColumnName="Weight" msprop:Generator_ColumnPropNameInRow="Weight" msprop:Generator_ColumnVarNameInTable="columnWeight" msprop:Generator_ColumnPropNameInTable="WeightColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="UnitW" msprop:Generator_UserColumnName="UnitW" msprop:Generator_ColumnPropNameInRow="UnitW" msprop:Generator_ColumnVarNameInTable="columnUnitW" msprop:Generator_ColumnPropNameInTable="UnitWColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Detail" msprop:Generator_UserColumnName="Detail" msprop:Generator_ColumnPropNameInRow="Detail" msprop:Generator_ColumnVarNameInTable="columnDetail" msprop:Generator_ColumnPropNameInTable="DetailColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ImgLabel" msprop:Generator_UserColumnName="ImgLabel" msprop:Generator_ColumnVarNameInTable="columnImgLabel" msprop:Generator_ColumnPropNameInRow="ImgLabel" msprop:Generator_ColumnPropNameInTable="ImgLabelColumn" type="xs:base64Binary" minOccurs="0" />
+              <xs:element name="ImgPackage" msprop:Generator_UserColumnName="ImgPackage" msprop:Generator_ColumnVarNameInTable="columnImgPackage" msprop:Generator_ColumnPropNameInRow="ImgPackage" msprop:Generator_ColumnPropNameInTable="ImgPackageColumn" type="xs:base64Binary" minOccurs="0" />
+              <xs:element name="PlantName" msprop:Generator_UserColumnName="PlantName" msprop:Generator_ColumnVarNameInTable="columnPlantName" msprop:Generator_ColumnPropNameInRow="PlantName" msprop:Generator_ColumnPropNameInTable="PlantNameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="PlantTypeName" msprop:Generator_UserColumnName="PlantTypeName" msprop:Generator_ColumnVarNameInTable="columnPlantTypeName" msprop:Generator_ColumnPropNameInRow="PlantTypeName" msprop:Generator_ColumnPropNameInTable="PlantTypeNameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="idPk" msprop:Generator_UserColumnName="idPk" msprop:Generator_ColumnPropNameInRow="idPk" msprop:Generator_ColumnVarNameInTable="columnidPk" msprop:Generator_ColumnPropNameInTable="idPkColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:vPackingPd" />
+      <xs:field xpath="mstns:idPk" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

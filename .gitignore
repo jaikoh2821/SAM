@@ -1,0 +1,20 @@
+# Build output / VS
+bin/
+obj/
+.vs/
+*.suo
+*.user
+*.pfx
+*.rar
+*.bak
+UpgradeLog*
+_UpgradeReport_Files/
+Backup/
+
+# Secrets (copy from *.example and fill in locally)
+connections.config
+secrets.config
+
+# Compiled dependency DLLs (GrTeamSystem.dll has credentials compiled in)
+*.dll
+*.exe
